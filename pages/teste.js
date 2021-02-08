@@ -1,11 +1,14 @@
 import React from 'react'
-import styled from "styled-components";
-import Titre from './omponents/Titre';
+import Titre from './components/Titre';
+import SousTitre from './components/SousTitre';
 
 
 export default function teste() {
     return (
-        <Titre color='#000000' texte='Mon titre' />
+        <div>
+            <SousTitre color='#000000' texte='Mon titre' />
+            <Titre color='#000000' texte='Mon titre' />
+        </div>
 
     )
 }

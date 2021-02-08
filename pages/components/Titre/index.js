@@ -1,4 +1,3 @@
-import react from 'react'
 import { TitreStc } from './Titre.stc';
 
 const Titre = (props) => {
