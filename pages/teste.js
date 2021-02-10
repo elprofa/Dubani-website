@@ -2,7 +2,8 @@ import React from 'react'
 import Titre from './components/Titre';
 import SousTitre from './components/SousTitre';
 import { Row, Col } from 'reactstrap';
-import Menu from './components/MenuHamb';
+import Texte from './components/Texte';
+//import Menu from './components/MenuHamb';
 
 
 export default function teste() {
@@ -12,6 +13,7 @@ export default function teste() {
                 <Col>
                     <SousTitre color='#000000' texte='Mon titre' />
                     <Titre color='#000000' texte='Mon titre' />
+                    <Texte color='#000000' texte="Mon texte de teste pour voir l'affichage" />
                 </Col>
 
                 <Col>
