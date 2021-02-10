@@ -5,7 +5,8 @@ export const TexteStc = styled.p`
     padding-bottom: 10px;
     font-weight: 100;
     text-align: justify;
-    position: relative; 
+    margin-left: 25px;
+    width: 19%;
     color: ${props => props.color || "#000"};
     
 `;
