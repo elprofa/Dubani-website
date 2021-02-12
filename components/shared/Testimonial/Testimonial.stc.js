@@ -15,9 +15,7 @@ const TestiStyle = styled.p`
     padding-bottom: 20px;
     color: #212529!important;
     text-align: center;
-    font-style: italic;
-    height: 80%;
-    
+    font-style: italic;   
 }
 
 `;
