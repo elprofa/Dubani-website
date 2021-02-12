@@ -5,10 +5,10 @@ const MoleculeBottomSectionAccueilStc=Styled(Row)`
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: auto !important;
     padding: 15px;
     bottom: 10px;
-    
+
     .right
     {
         text-align:right;
