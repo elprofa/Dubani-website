@@ -3,7 +3,7 @@ import {gsap,Back,TimelineLite ,TweenMax, Power3,Power2,Expo,Circ, TimelineMax} 
 
 import HamburgerStc from './Hamburger.stc';
 
-const Dubany=()=>{
+const Dubany=(props)=>{
 
     let MySvg=useRef(null);
     let lineOne=useRef(null);
@@ -49,11 +49,11 @@ const Dubany=()=>{
     }
 
     return(
-        <HamburgerStc>
+        <HamburgerStc taille={props.taille}>
             <svg onMouseLeave={svgMousseLeave} onMouseEnter={svgMousseEnter} ref={MySvg} className="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox='0 0 100 100' >
                <line ref={lineOne} className="line-one" x1="25" y1="42" x2="75" y2="42" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
-               <line ref={lineTwo} className="line-two" x1="25" y1="50" x2="75" y2="50" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
-               <line ref={lineThree} className="line-three" x1="25" y1="58" x2="75" y2="58" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
+               <line ref={lineTwo} className="line-two" x1="25" y1="52" x2="75" y2="52" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
+               <line ref={lineThree} className="line-three" x1="25" y1="62" x2="75" y2="62" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
             </svg>
         </HamburgerStc>
     )

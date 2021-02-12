@@ -2,10 +2,10 @@ import Styled from 'styled-components';
 
 
 const CourbeStc=Styled.div`
-    width:150px !important;
-    -webkit-transform: rotate(18.5deg);
-    -ms-transform: rotate(18.5deg);
-    transform: rotate(18.5deg);
+    width:160px !important;
+    -webkit-transform: rotate(7.55deg);
+    -ms-transform:rotate(7.55deg);
+    transform: rotate(7.55deg);
 
     /* width:150px; */
     span
@@ -22,22 +22,22 @@ const CourbeStc=Styled.div`
     .two
     {
       position: relative;
-      left: -17.5px;
-      top: 5px;
+      left: -11px;
+    top: 10px;
     }
 
     .three
     {
       position: relative;
-      left: -31px;
-      top: -2px;
+      left: -17px;
+    top: 7px;
     }
 
     .four
     {
       position: relative;
-      left: -44.5px;
-      top: -9px;
+      left: -24px;
+    top: 5px;
     }
   
     

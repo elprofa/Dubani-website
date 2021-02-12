@@ -17,13 +17,13 @@ const BoutonStc = styled(Button)`
   }
 
   &:hover {
-    color: ${(props) => props.couleur || "#ffffff"};
+    color: ${(props) => props.couleur || "#ccc"};
   }
   .badge {
     background: transparent;
     font-weight: 800;
     font-size: inherit;
-    color: ${(props) => props.couleur || "#fff"};
+    color: ${(props) => props.couleur || "#ccc"};
   }
 `;
 
