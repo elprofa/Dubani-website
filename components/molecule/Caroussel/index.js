@@ -5,12 +5,12 @@ import "react-multi-carousel/lib/styles.css";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-    paritialVisibilityGutter: 60
+    items: 2,
+    paritialVisibilityGutter: 30
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 4,
+    items: 2,
     paritialVisibilityGutter: 40
   },
   mobile: {
@@ -19,7 +19,7 @@ const responsive = {
     paritialVisibilityGutter: 40
   }
 };
-const colors = ["red", "green", "blue", "orange", "#ccc",, "#000"];
+const colors = ["red", "green", "blue", "orange", "#ccc", "#000"];
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.
 // It will work on real devices.
@@ -30,12 +30,12 @@ const Simple = ({ deviceType }) => {
       deviceType={deviceType}
       itemClass="image-item"
       responsive={responsive}
-      removeArrowOnDeviceType={["tablet", "mobile"]}
+      removeArrowOnDeviceType={["desktop","tablet", "mobile"]}
       showDots={true}
     >
-      {colors.map(color => {
+      {colors.map((color,index) => {
         return (
-          <div style={{ background: color, width: 300, height: 300 }}>
+          <div key={index} style={{ background: color, width: 450, height: 450 }}>
             hello
           </div>
         );

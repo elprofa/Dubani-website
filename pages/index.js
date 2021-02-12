@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import SectionAccueil from '../components/template/SectionAccueil';
 import SectionProjects from '../components/template/SectionProjects';
+import SectionProduction from '../components/template/SectionProduction';
+import SectionClient from '../components/template/SectionClients';
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
 
       <main className="main">
         <SectionAccueil/>
-          <SectionProjects/>
+        <SectionProjects/>
+        <SectionProduction/>
+        <SectionClient/>
       </main>
 
       <footer className="footer">

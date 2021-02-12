@@ -6,7 +6,7 @@ import SectionProductionMoleculeBody from './MoleculeBodySectionProduction.stc';
 
 const Section=(props)=>{
     return (
-        <SectionProductionMoleculeBody className="App" style={{ width: 1050 }}>
+        <SectionProductionMoleculeBody >
             <Simple deviceType={"desktop"} />
         </SectionProductionMoleculeBody>
     )

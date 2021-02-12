@@ -1,11 +1,15 @@
 import Styled from 'styled-components';
-import { Row} from "reactstrap";
 
-const SectionClientMoleculeHeadStc=Styled(Row)`
-    background:transparent;
+const SectionClientMoleculeHeadStc=Styled.section`
+   margin:80px 0px;
+   .row
+   {
+       margin:0px;
+   }
     .MonTexte
     {
-        text-align:right;
+        text-align:left;
+        padding-top:40px;
 
         & p
         {

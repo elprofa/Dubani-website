@@ -1,9 +1,8 @@
 import Styled from 'styled-components';
 
 const SectionStc=Styled.div`
-    background:#ccc;
-    width:500px;
-
+    width:100%;
+    margin:80px 0px;
     .card
     {
         display:inline-block !important;

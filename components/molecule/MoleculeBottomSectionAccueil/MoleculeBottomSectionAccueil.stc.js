@@ -3,6 +3,7 @@ import {Row} from "reactstrap";
 
 const MoleculeBottomSectionAccueilStc=Styled(Row)`
     margin:40px auto;
+    padding:0px 40px;
     .right
     {
         text-align:right;
@@ -11,6 +12,7 @@ const MoleculeBottomSectionAccueilStc=Styled(Row)`
     svg
     {
         margin-left:30px;
+        cursor:pointer;
     }
 `;
 export default MoleculeBottomSectionAccueilStc;
