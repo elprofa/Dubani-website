@@ -2,7 +2,7 @@ import Styled from 'styled-components';
 
 const HamburgerStc=Styled.div`
 
-width: ${(props)=>props.taille || "80"}px;
+width: ${(props)=>props.taille || "70"}px;
 
 .nav {
       width: 100%;

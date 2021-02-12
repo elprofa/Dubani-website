@@ -3,6 +3,7 @@ import MoleculeLeft from '../../molecule/MoleculeLeftSectionAccueil';
 import MoleculeRight from '../../molecule/MoleculeRightSectionAccueil';
 import {Row,Col} from "react-bootstrap";
 import SectionAccueilStc from './SectionAccueil.stc';
+import MoleculeBottom from '../../molecule/MoleculeBottomSectionAccueil';
 
 const SectionAccueil = (props) => {
   return (
@@ -16,6 +17,7 @@ const SectionAccueil = (props) => {
                     <MoleculeRight/>
                 </Col>
            </Row>
+            <MoleculeBottom />
         </SectionAccueilStc>    
   );
 }

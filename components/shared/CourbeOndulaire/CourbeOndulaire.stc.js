@@ -6,6 +6,7 @@ const CourbeStc=Styled.div`
     -webkit-transform: rotate(7.55deg);
     -ms-transform:rotate(7.55deg);
     transform: rotate(7.55deg);
+    margin-bottom:${(props)=>props.marge_bas || "20"}px;
 
     /* width:150px; */
     span

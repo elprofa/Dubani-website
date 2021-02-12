@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import SectionAccueil from '../components/template/SectionAccueil';
+import SectionProjects from '../components/template/SectionProjects';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 
       <main className="main">
         <SectionAccueil/>
+        <SectionProjects/>
       </main>
 
       <footer className="footer">

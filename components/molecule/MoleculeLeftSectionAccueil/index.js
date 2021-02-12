@@ -10,18 +10,18 @@ import SousTitre from '../../shared/SousTitre';
 const SectionAccueilMoleculeLeft=()=>{
     return(
         <SectionAccueilMoleculeLeftStc>
-            <Courbe couleur="#0a2db0" className="CourbeAccueil"/>
+            <Courbe couleur="#0a2db0" marge_bas="40" className="CourbeAccueil"/>
             <SousTitre 
                 texte="WE DESIGN AND DEVELOP" 
-                marge-haut="30" 
-                marge-bas="20" 
-                poid-font="300"/>
+                marge_haut="30" 
+                marge_bas="20" 
+                poid_font="400"/>
             <Titre 
                 texte="Persuasive websites and " 
-                poid-font="700"/>
+                poid_font="700"/>
             <Titre 
                 texte="Mobile App " 
-                poid-font="700"/>
+                poid_font="700"/>
             <Bouton 
                 texte="HIRE US" 
                 bg="#0a2db0" 

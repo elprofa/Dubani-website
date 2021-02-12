@@ -6,7 +6,7 @@ import {Container} from "react-bootstrap";
 const NavBar = (props) => {
   return (
    
-        <NavbarStc bg="light" variant="dark" collapseOnSelect expand="lg">
+        <NavbarStc variant="dark" collapseOnSelect expand="lg">
            <Container>
               <Navbar.Brand href="#home" >DUBANI</Navbar.Brand>
               <Nav className="ml-auto menu_hamburger">

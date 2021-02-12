@@ -4,7 +4,7 @@ import CourbeStc from './CourbeOndulaire.stc';
 
 const CourbeOndulaire=(props)=>{
     return (
-        <CourbeStc couleur={props.couleur}>
+        <CourbeStc couleur={props.couleur} marge_bas={props.marge_bas}>
            {/* <div id="infinity"></div> */}
            <span className="one" >~</span>
            <span className="two">~</span>
