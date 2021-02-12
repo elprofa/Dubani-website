@@ -34,7 +34,7 @@ export default function teste() {
                             
                         </Col>
                         <Col lg={3} className='ml-5'>
-                            <FaFacebookF className='icons d-flex justify-content-end' size={18} className='ml-4' style={{background: 'red'}, {borderRadius: '50%'}, {color: 'rede'}}/>
+                            <FaFacebookF className='icons d-flex justify-content-end' />
                             <FaInstagram className='icons d-flex justify-content-end' size={20} className='mx-4' />
                             <FaLinkedinIn className='icons d-flex justify-content-end' size={20} className='mr-2' color='blue' />
                             
