@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="main">
         <SectionAccueil/>
-        <SectionProjects/>
+          <SectionProjects/>
       </main>
 
       <footer className="footer">

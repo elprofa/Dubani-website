@@ -22,4 +22,4 @@ const SectionAccueil = (props) => {
   );
 }
 
-export default SectionAccueil;
+export default SectionAccueil; 
