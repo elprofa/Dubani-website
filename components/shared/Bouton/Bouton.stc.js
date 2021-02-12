@@ -17,7 +17,7 @@ const BoutonStc = styled(Button)`
   }
 
   &:hover {
-    color: ${(props) => props.couleur || "#fff"};
+    color: ${(props) => props.couleur || "#ffffff"};
   }
   .badge {
     background: transparent;
