@@ -2,39 +2,42 @@ import Styled from 'styled-components';
 
 
 const CourbeStc=Styled.div`
-    width:150px;
-    transform: rotate(3deg);
+    width:150px !important;
+    -webkit-transform: rotate(18.5deg);
+    -ms-transform: rotate(18.5deg);
+    transform: rotate(18.5deg);
 
     /* width:150px; */
     span
     {
       font-size:50px;
-      font-weight:100;
+      font-weight:400;
       color:${(props)=>props.couleur|| "#ccc"};
     }
     span.one {
         position: relative;
-        right: 0px;
+        right: 4px;
+        top: 12px;
     }
     .two
     {
       position: relative;
-      left: -15px;
-      top: -1px;
+      left: -17.5px;
+      top: 5px;
     }
 
     .three
     {
       position: relative;
-      left: -30px;
+      left: -31px;
       top: -2px;
     }
 
     .four
     {
       position: relative;
-      left:-45px;
-      top:-3px;
+      left: -44.5px;
+      top: -9px;
     }
   
     

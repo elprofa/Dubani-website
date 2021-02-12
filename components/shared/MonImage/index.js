@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 
 const MonImage=(props)=>{
   if(props.largeur && props.hauteur){

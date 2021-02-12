@@ -5,13 +5,13 @@ import BoutonStc from "./Bouton.stc";
 
 
 const Bouton = (props) => {
-  const { texte, bg, couleurBordure, couleur, largeurMin, icon } = props;
+  const { texte, bg, couleur_bordure, couleur, largeur_min, icon } = props;
   return (
     <BoutonStc
       variant="primary"
-      couleurBordure={couleurBordure}
+      couleur_bordure={couleur_bordure}
       couleur={couleur}
-      largeurMin={largeurMin}
+      largeur_min={largeur_min}
       bg={bg}
     >
       {texte}{" "}
