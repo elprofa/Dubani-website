@@ -2,8 +2,13 @@ import Styled from 'styled-components';
 import {Row} from "reactstrap";
 
 const MoleculeBottomSectionAccueilStc=Styled(Row)`
-    margin:40px auto;
-    padding:0px 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px;
+    bottom: 10px;
+    
     .right
     {
         text-align:right;
