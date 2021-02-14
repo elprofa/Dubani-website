@@ -9,6 +9,9 @@ const FooterStc=Styled.div`
     .divMenu
     {
         text-align:right;
+        @media (max-width: 768px) {
+            display:none;
+        }
     }
 `;
 export default FooterStc;
