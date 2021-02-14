@@ -1,12 +1,14 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import MonImage from "../../shared/MonImage";
+import CarousselStc from './Caroussel.stc';
 
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 2,
-    paritialVisibilityGutter: 30
+    paritialVisibilityGutter: 40
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
@@ -19,7 +21,12 @@ const responsive = {
     paritialVisibilityGutter: 40
   }
 };
-const colors = ["red", "green", "blue", "orange", "#ccc", "#000"];
+const colors = [
+  {chemin:"/img/register.jpg",lien:""},
+  {chemin:"/img/register.jpg",lien:""},
+  {chemin:"/img/register.jpg",lien:""},
+  {chemin:"/img/register.jpg",lien:""}
+];
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.
 // It will work on real devices.
@@ -33,11 +40,11 @@ const Simple = ({ deviceType }) => {
       removeArrowOnDeviceType={["desktop","tablet", "mobile"]}
       showDots={true}
     >
-      {colors.map((color,index) => {
+      {colors.map((element,index) => {
         return (
-          <div key={index} style={{ background: color, width: 450, height: 450 }}>
-            hello
-          </div>
+          <CarousselStc key={index} >
+             <MonImage chemin={element.chemin} />
+          </CarousselStc>
         );
       })}
     </Carousel>

@@ -5,7 +5,7 @@ import MonImage from '../../shared/MonImage';
 const SectionAccueilMoleculeRight=()=>{
     return (
         <SectionAccueilMoleculeRightStc>
-            <MonImage chemin="/img/fpic1.svg" />
+            <MonImage chemin="/img/chat.svg" />
         </SectionAccueilMoleculeRightStc>
     )
 }

@@ -4,6 +4,7 @@ import SectionProjects from '../components/template/SectionProjects';
 import SectionProduction from '../components/template/SectionProduction';
 import SectionClient from '../components/template/SectionClients';
 import SectionTestimonial from '../components/template/SectionTestimonial';
+import SectionWhatWeDo from '../components/template/SectionwhatWeDo';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="main">
         <SectionAccueil/>
         <SectionProjects/>
+        <SectionWhatWeDo/>
         <SectionProduction/>
         <SectionClient/>
         <SectionTestimonial/>
