@@ -6,6 +6,12 @@ import Courbe from '../../shared/CourbeOndulaire';
 import Titre from '../../shared/Titre';
 import SousTitre from '../../shared/SousTitre';
 
+const WeDo=[
+    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"},
+    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"},
+    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"}
+];
+
 const SectionWhatWeDo=()=>{
 
     return(
@@ -13,7 +19,7 @@ const SectionWhatWeDo=()=>{
             <Container>
                 <Row>
                     <Col lg={6} >
-                        <Courbe couleur="#527bce" />
+                        <Courbe couleur="#333" />
                         <SousTitre 
                             texte="WHAT" 
                             marge_haut="30px" 
@@ -22,14 +28,18 @@ const SectionWhatWeDo=()=>{
                             poid_font="400"/>
                         <Titre 
                             texte="WE ARE DO " 
-                            couleur="#fff"
+                            couleur="#fff" 
+                            marge_bas="40px"
                             poid_font="700"/>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
-                        <MoleculeWhatWeDo />
-                    </Col>
+                   
+                        {
+                            WeDo.map((element,index)=> <Col md={4} key={index}><MoleculeWhatWeDo chemin={element.chemin}
+                            texte={element.texte} /></Col>)
+                        }
+                    
                 </Row>
             </Container>
 

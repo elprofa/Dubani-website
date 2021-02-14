@@ -11,14 +11,14 @@ const responsive = {
     paritialVisibilityGutter: 40
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-    paritialVisibilityGutter: 40
+    breakpoint: { max: 1024, min: 476 },
+    items: 1,
+    paritialVisibilityGutter: 20
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 476, min: 0 },
     items: 1,
-    paritialVisibilityGutter: 40
+    paritialVisibilityGutter: 0
   }
 };
 const colors = [

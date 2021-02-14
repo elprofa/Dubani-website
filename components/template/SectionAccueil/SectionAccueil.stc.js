@@ -5,7 +5,11 @@ import Styled from 'styled-components';
 const SectionAccueilStc=Styled(Container)`
    padding-bottom:40px;
    height:100vh;
-   padding-top:10%;
+   padding-top:30%;
+
+   @media (min-width: 476px) {
+      padding-top:15%;
+    }
 
    .row
    {

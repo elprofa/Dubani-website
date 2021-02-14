@@ -42,7 +42,7 @@ const Footer = (props) => {
                     </Col>
                     <Col md={6}>
                         <MonImage 
-                            chemin="/img/fpic1.svg"
+                            chemin="/img/world-map.png"
                             
                         />
                     </Col>
