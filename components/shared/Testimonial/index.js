@@ -70,7 +70,7 @@ const Testimonial = (props) => {
           `.custom-tag {
               max-width: 50%;
               height: 500px;
-              background: 'black';
+              background: '#212529';
             }`
         }
       </style>
