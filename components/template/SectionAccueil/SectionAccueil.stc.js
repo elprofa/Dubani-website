@@ -4,6 +4,12 @@ import Styled from 'styled-components';
 
 const SectionAccueilStc=Styled(Container)`
    padding-bottom:40px;
+   height:100vh;
+   padding-top:33%;
+
+   @media (min-width: 525px) {
+      padding-top:10%;
+    }
 
    .row
    {

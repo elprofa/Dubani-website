@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../../components/molecule/NavBar";
 import { theme } from "../../theme";
 import { GlobalCSS } from "../../public/styles/style";
-// import Footer from "../../components/molecule";
+import Footer from "../../components/molecule/Footer";
 
 
 const Layout = ({ children, ...props }) => {
@@ -19,7 +19,7 @@ const Layout = ({ children, ...props }) => {
       <GlobalCSS />
       <Navbar />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </ThemeProvider>
   );
 };

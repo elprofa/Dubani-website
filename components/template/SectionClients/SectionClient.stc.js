@@ -2,7 +2,7 @@ import Styled from 'styled-components';
 
 const SectionClientStc=Styled.section`
 background:#1f5acf;
-padding-bottom:40px;
+padding-bottom:80px;
 
 .row
 {

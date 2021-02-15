@@ -5,7 +5,7 @@ import ElementMenuStc from './ElementMenu.stc'
 const ElementMenu=(props)=>{
 
     return (
-        <ElementMenuStc>
+        <ElementMenuStc couleur={props.couleur} marge_bas={props.marge_bas} taille={props.taille}>
              <Link href={props.lien}>
                 <a>{props.texte}</a>
             </Link>

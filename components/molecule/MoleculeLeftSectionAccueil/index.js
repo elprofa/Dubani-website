@@ -17,7 +17,7 @@ const SectionAccueilMoleculeLeft=()=>{
                 marge_bas="20" 
                 poid_font="400"/>
             <Titre 
-                texte="Persuasive websites and " 
+                texte="Persuasive Websites And " 
                 poid_font="700"/>
             <Titre 
                 texte="Mobile App " 

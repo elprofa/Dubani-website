@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const MoleculeBottomSectionAccueil=()=>{
     return(
-        <MoleculeBottomSectionAccueilStc>
+        <MoleculeBottomSectionAccueilStc className="container">
             <Col sm="6" className="left">
                 <Bouton texte="SCROLL DOWN"
                     bg="transparent" 

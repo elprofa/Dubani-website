@@ -23,7 +23,7 @@ const SectionProductionMoleculeHead=()=>{
             </Col>
 
             <Col lg={6} className="MonBouton">
-                <MonBouton texte="MORE PROJECTS" bg="transparent" marge_bas="80" couleur="#000" icon={<BsArrowRight />} />
+                <MonBouton texte="MORE PROJECTS" bg="transparent" marge_haut="80px" couleur="#000" icon={<BsArrowRight />} />
             </Col>
         </SectionProductionMoleculeHeadStc>
     )
