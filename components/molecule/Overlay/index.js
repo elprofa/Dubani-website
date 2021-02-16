@@ -3,6 +3,7 @@ import OverlayStc from './Overlay.stc';
 import Hamburger from '../../shared/Hamburger';
 import {Container,Navbar,Nav,Row,Col} from "react-bootstrap";
 import ElementMenuHeader from '../../shared/ElementMenuHeader';
+import { BsX } from "react-icons/bs";
 
 const Overlay=(props)=>{
 
@@ -13,21 +14,27 @@ const Overlay=(props)=>{
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
                             <Navbar.Brand href="#home" >DUBANI</Navbar.Brand>
-                            <Nav className="ml-auto menu_hamburger">
-                                wedo
+                            <Nav onClick={props.closeNav} className="ml-auto menu_hamburger">
+                                <BsX className="icon_close" />
                             </Nav>
                         </Container>
                     </Navbar>
 
-                    <Row>
-                        <Col md={4}>
-                            <ElementMenuHeader />
-                            <ElementMenuHeader />
-                        </Col>
-                        <Col md={4} className="toRotate">
-                            <ElementMenuHeader/>
-                        </Col>
-                    </Row>
+                   <Container>
+                        <Row>
+                            <Col lg={5} md={12} className="left">
+                                <ElementMenuHeader />
+                                <ElementMenuHeader />
+                            </Col>
+                            <Col lg={2} md={12} className="toRotate">
+                                <ElementMenuHeader/>
+                            </Col>
+                            <Col lg={5} md={12} className="right">
+                                <ElementMenuHeader />
+                                <ElementMenuHeader />
+                            </Col>
+                        </Row>
+                   </Container>
                 </div>
             </div>
             <Hamburger taille="70" openNav={props.openNav} />

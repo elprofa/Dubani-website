@@ -12,8 +12,22 @@ const OverlayStc=Styled.div`
   top: 0;
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 1);
-  overflow-y: hidden;
+
+    overflow-y: scroll;
+
+  @media (min-width: 996px)
+    {
+        overflow-y: hidden;
+    }
+  
+  
   transition: 1s; 
+}
+
+.icon_close
+{
+    font-size: 40px;
+    color: #fff;
 }
 
 .overlay-content {
@@ -52,16 +66,63 @@ const OverlayStc=Styled.div`
     right: 35px;
   }
 }
-
-.toRotate
+.row
 {
-    transform: rotate( 90deg);
-    /* width: 100%; */
-    text-align: left;
+    margin:0px;
+    width:100%;
+}
+.left
+{
     & .card
     {
-        position: relative;
-        bottom: -58%;
+        
+        @media (min-width: 996px)
+        {
+            margin-right:30px;
+        }
+    }
+}
+.right
+{
+    & .card
+    {
+        @media (min-width: 996px)
+        {
+            margin-left:30px;
+        }
+        
+
+    }
+}
+.toRotate
+{
+    text-align: left;
+    /* width: 100%; */
+
+    @media (min-width: 996px)
+    {
+        transform: rotate( 90deg);
+    }
+    
+    & .card
+    {
+       
+        @media (min-width: 996px)
+        {
+            position: relative;
+            bottom: -24%;
+            height: 53%;
+            width: 407px;
+            left: -136px;
+        }
+        @media (min-width: 996px) and (max-width:1200px)         
+        {
+            position: relative;
+            bottom: -24%;
+            height: 53%;
+            width: 370px;
+            left: -133px;
+        }
     }
 }
 
