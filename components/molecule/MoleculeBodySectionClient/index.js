@@ -20,7 +20,7 @@ const SectionClientMoleculeBody=()=>{
         <SectionClientMoleculeBodyStc>
             <Row>
                 {
-                    Listes.map((liste,index)=><Col md={3}><CardClient affichage="inline-block" key={index} chemin={liste.chemin} /></Col>)
+                    Listes.map((liste,index)=><Col md={3} key={index}><CardClient affichage="inline-block" chemin={liste.chemin} /></Col>)
                 }
             </Row>
         </SectionClientMoleculeBodyStc>

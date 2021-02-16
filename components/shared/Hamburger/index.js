@@ -20,9 +20,10 @@ const Dubany=(props)=>{
 
     useEffect(() => {
         
-        lines=[lineOne.current,lineTwo.current,lineThree.current];
+        // lines=[lineOne.current,lineThree.current];
+        lines=[lineTwo.current];
         tlm.paused(true);
-        tlm.staggerTo(lines,0.25,{scaleX:1.5,repeat:4,yoyo:false},0.125);
+        tlm.staggerTo(lines,0.25,{scaleX:1.5,repeat:0,yoyo:false},0.125);
 
         toggleMenu
         .to(lineTwo.current,0.125,{scaleX:0})
@@ -32,10 +33,10 @@ const Dubany=(props)=>{
     }, [tlm,toggleMenu])
 
 
-    const svgMousseEnter=()=>{
-        toggleMenu.play();
+    const svgMousseEnter=(props)=>{
+        //toggleMenu.play();
         // toggleMenu.reverse();
-        // tlm.play();
+         tlm.play();
 
         // tlm.staggerTo(lines,0.25,{scaleX:1.5,repeat:4,yoyo:false},0.125);
         // tlm
@@ -45,12 +46,12 @@ const Dubany=(props)=>{
     }
 
     const svgMousseLeave=()=>{
-        toggleMenu.reverse();
+        tlm.reverse();
     }
 
     return(
-        <HamburgerStc taille={props.taille}>
-            <svg onMouseLeave={svgMousseLeave} onMouseEnter={svgMousseEnter} ref={MySvg} className="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox='0 0 100 100' >
+        <HamburgerStc taille={props.taille} >
+            <svg onClick={props.openNav} onMouseLeave={svgMousseLeave} onMouseEnter={svgMousseEnter} ref={MySvg} className="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox='0 0 100 100' >
                <line ref={lineOne} className="line-one" x1="25" y1="42" x2="75" y2="42" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
                <line ref={lineTwo} className="line-two" x1="25" y1="52" x2="75" y2="52" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />
                <line ref={lineThree} className="line-three" x1="25" y1="62" x2="75" y2="62" fill="none" stroke="#000" strokeMiterlimit="10" strokeWidth="4" />

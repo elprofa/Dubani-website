@@ -12,6 +12,9 @@ const BoutonStc = styled(Button)`
   overflow: hidden;
   font-size: ${(props)=>props.taille || "12px"};
   margin-top:${(props)=>props.marge_haut || ""};
+  width:${(props)=>props.largeur || props.largeur_min} !important;
+  text-align:${(props)=>props.alignement || "center"} !important;
+
   
   @media (min-width: 900px) {
     min-width: 80px;
