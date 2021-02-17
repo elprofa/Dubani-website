@@ -7,5 +7,13 @@ const SectionStc=Styled.div`
     {
         display:inline-block !important;
     }
+
+    li.react-multi-carousel-item.image-item
+    {
+      
+        @media (min-width: 996px) {
+            margin-right:40px;
+        }
+    }    
 `;
 export default SectionStc;
