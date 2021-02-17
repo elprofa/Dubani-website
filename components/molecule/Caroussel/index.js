@@ -62,6 +62,7 @@ const Simple = ({ deviceType }) => {
                   </Texte>
                   <Bouton texte="SCROLL DOWN"
                     bg="transparent"
+                    bg_after="transparent"
                     marge_haut="40px" 
                     couleur="#333" 
                     icon={<BsArrowDown />}
