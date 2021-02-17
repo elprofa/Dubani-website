@@ -5,10 +5,12 @@ import BoutonStc from "./Bouton.stc";
 
 
 const Bouton = (props) => {
-  const {largeur,alignement,taille,marge_haut,texte, bg, couleur_bordure, couleur, largeur_min, icon } = props;
+  const {marge_gauche,marge_droite,bg_after,largeur,alignement,taille,marge_haut,texte, bg, couleur_bordure, couleur, largeur_min, icon } = props;
   return (
     <BoutonStc
+      className="skew-button"
       variant="primary"
+      bg_after={bg_after}
       couleur_bordure={couleur_bordure}
       couleur={couleur}
       largeur_min={largeur_min}
@@ -16,17 +18,20 @@ const Bouton = (props) => {
       taille={taille} 
       alignement={alignement} 
       largeur={largeur} 
+      marge_gauche={marge_gauche} 
+      marge_droite={marge_droite} 
       bg={bg}
     >
-      {texte}{" "}
-      {icon ? (
-        <Badge variant="">
-          {" "}
-         {icon}
-        </Badge>
-      ) : (
-        ""
-      )}{" "}
+      <i>{texte}{" "}</i>
+        
+        {icon ? (
+            <Badge variant="">
+            {" "}
+            {icon}
+            </Badge>
+        ) : (
+            ""
+        )}{" "}
     </BoutonStc>
   );
 };

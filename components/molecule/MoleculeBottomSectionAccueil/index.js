@@ -15,6 +15,8 @@ const MoleculeBottomSectionAccueil=()=>{
                 <Bouton texte="SCROLL DOWN"
                     bg="transparent" 
                     couleur="#333" 
+                    bg_after="#fff"
+                    bg="#ccc"
                     icon={<BsArrowDown />}
                 />
             </Col>

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import MyOverlay from '../components/molecule/Overlay';
+import Exo from '../components/shared/exo';
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <MyOverlay/>
+        <Exo/>
         
       </main>
 

@@ -21,9 +21,11 @@ const WhatWeDo=(props)=>{
                {props.texte}
         </Texte>
         <MonBouton 
-        bg="transparent" 
+        bg="#0a2db0" 
+        bg_after="#fff"
         couleur="#000" 
         taille="24px"
+        largeur="150px"
         icon={<BsArrowRight />} />
         </WhatWeDoStc>
     )

@@ -6,7 +6,6 @@ import Courbe from '../../shared/CourbeOndulaire';
 import Titre from '../../shared/Titre';
 import SousTitre from '../../shared/SousTitre';
 
-
 const SectionAccueilMoleculeLeft=()=>{
     return(
         <SectionAccueilMoleculeLeftStc>
@@ -24,8 +23,10 @@ const SectionAccueilMoleculeLeft=()=>{
                 poid_font="700"/>
             <Bouton 
                 texte="HIRE US" 
-                bg="#0a2db0" 
+                bg="#ccc" 
+                bg_after="#0a2db0"
                 couleur="#fff"/>
+
         </SectionAccueilMoleculeLeftStc>
     )
 }
