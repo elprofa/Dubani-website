@@ -9,7 +9,7 @@ const SousTitre=(props)=>{
                 marge_haut={props.marge_haut} 
                 marge_bas={props.marge_bas} 
                 taille={props.taille} 
-                poid_font={props.poid_font} className="ball2">
+                poid_font={props.poid_font}>
             {props.texte}
         </SousTitreStc>
     )
