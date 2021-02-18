@@ -8,7 +8,7 @@ const Bouton = (props) => {
   const {marge_gauche,marge_droite,bg_after,largeur,alignement,taille,marge_haut,texte, bg, couleur_bordure, couleur, largeur_min, icon } = props;
   return (
     <BoutonStc
-      className="skew-button"
+      className="skew-button bouton"
       variant="primary"
       bg_after={bg_after}
       couleur_bordure={couleur_bordure}

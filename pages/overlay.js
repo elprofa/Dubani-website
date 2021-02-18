@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Exo from '../components/shared/exo';
+import Exo from '../components/molecule/Dubani5';
 
 
 export default function Home() {
