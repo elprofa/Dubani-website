@@ -8,9 +8,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-const MoleculeBottomSectionAccueil=()=>{
+const MoleculeBottomSectionAccueil=(props)=>{
     return(
-        <MoleculeBottomSectionAccueilStc className="container">
+        <MoleculeBottomSectionAccueilStc ref={props.reference} className="container">
             <Col sm="6" className="left">
                 <Bouton texte="SCROLL DOWN"
                     bg="transparent" 
