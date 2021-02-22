@@ -4,7 +4,7 @@ import Image from '../MonImage';
 import SousTitre from '../SousTitre';
 import Texte from '../Texte';
 import Bouton from '../Bouton';
-import { BsArrowDown } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 const Team=(props)=>{
     return (
@@ -18,10 +18,11 @@ const Team=(props)=>{
             </Texte>
             <Bouton
                 couleur="#333" 
+                marge_haut="20px"
                 bg_after="#fff"
                 bg="#ccc"
                 taille="22px"
-                icon={<BsArrowDown />}
+                icon={<BsArrowRight />}
             />
         </TeamStc>
     )

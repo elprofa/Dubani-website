@@ -6,7 +6,7 @@ const TeamStc=Styled(Card)`
     border-radius:0px;
     text-align:center;
     padding:20px;
-    border:00px;
+    border:0px;
     .pictureTeam div
     {
         position:relative !important;
@@ -14,7 +14,7 @@ const TeamStc=Styled(Card)`
         width: 160px;
         margin: auto !important;
         border: 1px solid #ccc;
-        background:#000;
+        background:#ccc;
         border-radius: 100%;
     }
 `;

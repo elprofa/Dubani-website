@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-        <title> Page | Agency</title>
+        <title> Dubani | Agency</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

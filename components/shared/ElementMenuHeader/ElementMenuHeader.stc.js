@@ -10,6 +10,13 @@ const ElementMenuHeaderStc=Styled(Card)`
     transform:${(props)=>props.transformation || "rotate( 0deg )"} ;
     padding: 20px;
     margin-bottom: 20px;
+    height:193px;
+
+    .courbe
+    {
+        height:60px;
+    }
+
     @media (min-width: 996px) and (max-width:1200px)         
     {
         padding: 10px;
