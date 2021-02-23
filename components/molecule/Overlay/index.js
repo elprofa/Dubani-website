@@ -23,15 +23,15 @@ const Overlay=(props)=>{
                    <Container>
                         <Row>
                             <Col lg={5} md={12} className="left">
-                                <ElementMenuHeader cliquer={props.closeNav} lien="agency" texte="AGENCY" />
-                                <ElementMenuHeader cliquer={props.closeNav} lien="project" texte="PROJECT"/>
+                                <ElementMenuHeader cliquer={props.closeNav} lien="/agency" texte="AGENCY" />
+                                <ElementMenuHeader cliquer={props.closeNav} lien="/project" texte="PROJECT"/>
                             </Col>
                              <Col lg={2} md={12} className="toRotate">
-                                <ElementMenuHeader cliquer={props.closeNav} lien="service" texte="SERVICES"/>
+                                <ElementMenuHeader cliquer={props.closeNav} lien="/service" texte="SERVICES"/>
                             </Col>
                             <Col lg={5} md={12} className="right">
-                                <ElementMenuHeader cliquer={props.closeNav} lien="journal" texte="JOURNAL"/>
-                                <ElementMenuHeader cliquer={props.closeNav} lien="contact" texte="CONTACT"/>
+                                <ElementMenuHeader cliquer={props.closeNav} lien="/journal" texte="JOURNAL"/>
+                                <ElementMenuHeader cliquer={props.closeNav} lien="/contact" texte="CONTACT"/>
                             </Col>
                         </Row>
                    </Container>

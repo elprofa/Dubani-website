@@ -11,11 +11,11 @@ const SectionAccueilMoleculeLeft=(props)=>{
 
     return(
         <SectionAccueilMoleculeLeftStc ref={props.reference}>
-            <Courbe couleur="#0a2db0" marge_bas="40" className="CourbeAccueil" />
+            <Courbe couleur="#0a2db0" marge_bas="40px" className="CourbeAccueil" />
             <SousTitre 
                 texte="WE DESIGN AND DEVELOP" 
-                marge_haut="30" 
-                marge_bas="20" 
+                marge_haut="30px" 
+                marge_bas="20px" 
                 poid_font="400"/>
             <Titre 
                 texte="Persuasive Websites And " 

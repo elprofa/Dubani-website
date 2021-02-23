@@ -17,7 +17,7 @@ const NavBar = (props) => {
    
         <NavbarStc variant="dark" fixed="top" collapseOnSelect expand="lg">
            <Container>
-              <Navbar.Brand href="#home" >DUBANI</Navbar.Brand>
+              <Navbar.Brand href="/" >DUBANI</Navbar.Brand>
               <Nav className="ml-auto menu_hamburger">
                   <Overlay openNav={openNav} closeNav={closeNav} />
               </Nav>
