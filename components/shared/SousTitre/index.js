@@ -4,6 +4,7 @@ import SousTitreStc from './SousTitre.stc';
 const SousTitre=(props)=>{
     return (
         <SousTitreStc 
+                className="soustitre"
                 couleur={props.couleur} 
                 marge_haut={props.marge_haut} 
                 marge_bas={props.marge_bas} 

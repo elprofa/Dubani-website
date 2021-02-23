@@ -11,6 +11,7 @@ const SectionAccueilMoleculeLeftStc=Styled.div`
     {
         margin-top:40px;
     }
+
 `;
 
 export default SectionAccueilMoleculeLeftStc;

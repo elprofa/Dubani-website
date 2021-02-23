@@ -9,11 +9,11 @@ import SousTitre from '../../shared/SousTitre';
 const MoleculeLeftSectionProject=()=>{
     return(
         <MoleculeLeftSectionProjectStc>
-            <Courbe couleur="#686868" marge_bas="40" className="CourbeAccueil"/>
+            <Courbe couleur="#686868" marge_bas="40px" className="CourbeAccueil"/>
             <SousTitre 
                 texte="OUR PROJECTS" 
-                marge_haut="30" 
-                marge_bas="20" 
+                marge_haut="30px" 
+                marge_bas="20px" 
                 poid_font="400"
                 couleur="#fff"
                 />
@@ -27,7 +27,7 @@ const MoleculeLeftSectionProject=()=>{
                 poid_font="700"
                 couleur="#fff"
                 />
-            <Texte couleur="#686868" marge_haut="20">
+            <Texte couleur="#686868" marge_haut="20px">
                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
                  à titre provisoire pour calibrer une mise en page, le texte définitif venant 
                  remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. 
