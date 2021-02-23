@@ -5,6 +5,6 @@ const SectionContactStc=Styled.section`
     padding-top:10%;
 
     
-    margin:40px 0px;
+    margin-bottom:40px;
 `;
 export default SectionContactStc;
