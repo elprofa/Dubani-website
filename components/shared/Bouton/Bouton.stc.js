@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import "../FormContact/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "reactstrap";
 const BoutonStc = styled(Button)`
   background: ${(props) => props.bg || "#ccc"};

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../shared/FormContact/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import WhatWeDoStc from './MoleculeWhatWeDo.stc';
 import MonImage from '../../shared/MonImage';
 import Texte from '../../shared/Texte';

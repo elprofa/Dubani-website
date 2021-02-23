@@ -1,5 +1,5 @@
 import React from "react";
-import "../FormContact/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import {Badge } from "reactstrap";
 import BoutonStc from "./Bouton.stc";
 

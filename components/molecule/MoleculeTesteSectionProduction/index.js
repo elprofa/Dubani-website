@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import MonImage from "../../shared/MonImage";
-import CarousselStc from './Caroussel.stc';
+import CarousselStc from './MoleculeBodySectionProduction.stc';
 
 const responsive = {
   desktop: {
@@ -32,7 +32,8 @@ const colors = [
 // It will work on real devices.
 const Simple = ({ deviceType }) => {
   return (
-    <Carousel className='carder' id='log'
+    <div className='wrapper'>
+    <Carousel className='card'
       partialVisbile
       deviceType={deviceType}
       itemClass="image-item"
@@ -43,11 +44,18 @@ const Simple = ({ deviceType }) => {
       {colors.map((element,index) => {
         return (
           <CarousselStc key={index} >
-             <MonImage chemin={element.chemin} />             
+             <MonImage chemin={element.chemin} />
+            <div className='info'>
+              <h1>Titre</h1>
+              <p>Lorem ipsum is simple and so good</p>
+              <a href='#' className='btn'>Read more</a>
+            </div>
+             
           </CarousselStc>
         );
       })}
     </Carousel>
+    </div>
   );
 };
 
