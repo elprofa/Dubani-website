@@ -29,14 +29,14 @@ const colors = [
   {chemin:"/img/register.jpg",lien:""},
   {chemin:"/img/register.jpg",lien:""},
   {chemin:"/img/register.jpg",lien:""},
-  {chemin:"/img/register.jpg",lien:""}
+  {chemin:"/img/workplace.jpg",lien:""}
 ];
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.
 // It will work on real devices.
 const Simple = ({ deviceType }) => {
   return (
-    <Carousel
+    <Carousel className='carder' id='log'
       partialVisbile
       deviceType={deviceType}
       itemClass="image-item"
