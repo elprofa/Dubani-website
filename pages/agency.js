@@ -4,7 +4,7 @@ import SectionWhatWeAre from '../components/template/sectionWhatWeArePageAgency'
 import SectionProvide from '../components/template/SectionProvidePageAgency';
 import SectionTeam from '../components/molecule/SectionTeam';
 
-export default function Home() {
+export default function Agency() {
   return (
     <div className="App">
       <Head>

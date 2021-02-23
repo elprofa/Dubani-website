@@ -1,5 +1,5 @@
 import React from 'react';
-//import "../../shared/FormContact/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import SectionClientMoleculeHeadStc from './MoleculeHeadSectionClient.stc';
 import SousTitre from '../../shared/SousTitre';
 import Titre from '../../shared/Titre';

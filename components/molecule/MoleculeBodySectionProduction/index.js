@@ -1,19 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-//import Simple from "../Caroussel";
-import Simple from '../MoleculeTesteSectionProduction';
-import Image from "../../shared/MonImage";
-
+import Simple from "../Caroussel";
 
 import SectionProductionMoleculeBody from './MoleculeBodySectionProduction.stc';
 
 const Section=(props)=>{
     return (
         <SectionProductionMoleculeBody >
-            <Simple deviceType={"desktop"}
-             itemClass="image-item"
-             removeArrowOnDeviceType={["desktop","tablet", "mobile"]}
-             showDots={true}/>
+            <Simple deviceType={"desktop"} />
         </SectionProductionMoleculeBody>
     )
 }

@@ -1,16 +1,16 @@
 import Head from 'next/head'
-import SectionProjectPageProject from '../components/template/SectionProjectPageProject';
+import SectionContact from '../components/template/SectionContact';
 
-export default function Project() {
+export default function Contact() {
   return (
     <div className="App">
       <Head>
-        <title>Dubani | Project</title>
+        <title>Dubani | Contact</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="main">
-        <SectionProjectPageProject />
+        <SectionContact />
       </main>
 
     </div>

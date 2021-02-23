@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import SectionService from '../components/template/SectionServicePageService';
 
-export default function Home() {
+export default function Service() {
   return (
     <div className="App">
       <Head>

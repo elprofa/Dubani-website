@@ -18,7 +18,7 @@ const SectionProductionMoleculeHead=()=>{
                     marge_bas="20px" 
                     poid_font="400"/>
                 <Titre 
-                    texte="Productions " 
+                    texte="Productionss " 
                     poid_font="700"/>
             </Col>
 

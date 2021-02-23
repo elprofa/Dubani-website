@@ -4,19 +4,15 @@ import { Label, Input, } from "reactstrap";
 import { FormWarp } from "./inputGroup.stc";
 
 const InputGroup = (props) => {
-  const { children, textLabel, typeInput, nameInput, idInput, valueInput } = props;
+  // const { children, textLabel, typeInput, nameInput, idInput, valueInput } = props;
   return (
     <FormWarp>
-      
-      <Label for={idInput}>{textLabel}</Label>
-      <Input
-        type={typeInput}
-        name={nameInput}
-        id={idInput}
-        value={valueInput}
-      />
+      <div className="input-field">
+        <input type="text" id={props.id} required />
+        <label for={props.id}>{props.label}:</label>
+      </div>
     </FormWarp>
-  );
+  )
 };
 
 export default InputGroup;
