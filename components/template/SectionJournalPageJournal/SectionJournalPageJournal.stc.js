@@ -1,8 +1,8 @@
 import Styled from 'styled-components';
 
-const SectionStc=Styled.section`
-    min-height:100vh;
+const JournalStc=Styled.section`
     padding-top:10%;
+
     @media (max-width: 767px)         
     {
         padding-top:15%;
@@ -11,13 +11,5 @@ const SectionStc=Styled.section`
     {
         padding-top:30%;
     }
-    .row
-    {
-        margin:0px;
-    }
-    .blockProject
-    {
-        margin:40px 0px;;
-    }
 `;
-export default SectionStc;
+export default JournalStc;
