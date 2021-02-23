@@ -5,7 +5,6 @@ import SectionProduction from '../components/template/SectionProduction';
 import SectionClient from '../components/template/SectionClients';
 import SectionTestimonial from '../components/template/SectionTestimonial';
 import SectionWhatWeDo from '../components/template/SectionwhatWeDo';
-import FormContact from '../components/shared/FormContact';
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
         <SectionWhatWeDo/>
         <SectionProduction/>
         <SectionClient/>
-        <FormContact/>
         <SectionTestimonial/>
       </main>
 
