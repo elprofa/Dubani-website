@@ -10,7 +10,7 @@ const SectionTestimonial = (props) => {
   return (
    
         <MoleculeTestimonialStc>
-                <Courbe couleur="#ccc" marge_bas="40" marge="auto" className="CourbeTestimonaial"/>
+                <Courbe couleur="#ccc" marge_bas="40px" marge="auto" className="CourbeTestimonaial"/>
                 <Titre 
                     texte="Testimonials " 
                     poid_font="700"/>
@@ -20,10 +20,10 @@ const SectionTestimonial = (props) => {
                                         <Carousel.Caption>
                                         <Texte 
                                                 couleur="#333" 
-                                                marge_bas="40" 
-                                                taille="25" 
+                                                marge_bas="40px" 
+                                                taille="25px" 
                                                 alignement="center" 
-                                                marge_haut="40" 
+                                                marge_haut="40px" 
                                                 style_font="italic"
                                                 >
                                                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
@@ -33,9 +33,9 @@ const SectionTestimonial = (props) => {
                                         </Texte>
                                         <Texte 
                                                 couleur="#000" 
-                                                marge_bas="40" 
+                                                marge_bas="40px" 
                                                 alignement="center" 
-                                                marge_haut="40" 
+                                                marge_haut="40px" 
                                                 style_font="italic"
                                                 >
                                                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification .
@@ -46,10 +46,10 @@ const SectionTestimonial = (props) => {
                                         <Carousel.Caption>
                                         <Texte 
                                                 couleur="#333" 
-                                                marge_bas="40" 
+                                                marge_bas="40px" 
                                                 taille="25" 
                                                 alignement="center" 
-                                                marge_haut="40" 
+                                                marge_haut="40px" 
                                                 style_font="italic"
                                                 >
                                                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
@@ -59,9 +59,9 @@ const SectionTestimonial = (props) => {
                                         </Texte>
                                         <Texte 
                                                 couleur="#000" 
-                                                marge_bas="40" 
+                                                marge_bas="40px" 
                                                 alignement="center" 
-                                                marge_haut="40" 
+                                                marge_haut="40px" 
                                                 style_font="italic"
                                                 >
                                                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification .
@@ -72,10 +72,10 @@ const SectionTestimonial = (props) => {
                                         <Carousel.Caption>
                                         <Texte 
                                                 couleur="#333" 
-                                                marge_bas="40" 
-                                                taille="25" 
+                                                marge_bas="40px" 
+                                                taille="25px" 
                                                 alignement="center" 
-                                                marge_haut="40" 
+                                                marge_haut="40px" 
                                                 style_font="italic"
                                                 >
                                                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
@@ -85,9 +85,9 @@ const SectionTestimonial = (props) => {
                                         </Texte>
                                         <Texte 
                                                 couleur="#000" 
-                                                marge_bas="40" 
+                                                marge_bas="40px" 
                                                 alignement="center" 
-                                                marge_haut="40" 
+                                                marge_haut="40px" 
                                                 style_font="italic"
                                                 >
                                                 Le lorem ipsum est, en imprimerie, une suite de mots sans signification .

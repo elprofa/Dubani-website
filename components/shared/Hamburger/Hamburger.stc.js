@@ -3,7 +3,7 @@ import Styled from 'styled-components';
 const HamburgerStc=Styled.div`
 
 width: ${(props)=>props.taille || "70"}px;
-
+cursor:pointer;
 .nav {
       width: 100%;
       height: 80px;

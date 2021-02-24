@@ -11,6 +11,8 @@ export const GlobalCSS = createGlobalStyle`
         font-family: source-sans-pro, sans-serif;
         font-weight: 400;
         font-style: normal;
+        width:100%;
+        overflow-x:hidden
     }
     
 `;

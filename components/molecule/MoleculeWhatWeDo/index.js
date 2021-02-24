@@ -12,18 +12,20 @@ const WhatWeDo=(props)=>{
             <MonImage chemin={props.chemin} largeur="100" hauteur="100"/>
             <Texte 
                 couleur="#000" 
-                marge_bas="40" 
+                marge_bas="40px" 
                 alignement="center" 
-                marge_haut="40" 
-                taille="16"
+                marge_haut="40px" 
+                taille="16px"
                 poid_font="600"
                 >
                {props.texte}
         </Texte>
         <MonBouton 
-        bg="transparent" 
+        bg="#0a2db0" 
+        bg_after="#fff"
         couleur="#000" 
         taille="24px"
+        largeur="150px"
         icon={<BsArrowRight />} />
         </WhatWeDoStc>
     )
