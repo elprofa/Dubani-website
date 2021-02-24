@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 
 const MonImage=(props)=>{
+  const {largeur, hauteur, chemin} = props;
+  
   if(props.largeur && props.hauteur){
       return (
           <Image
