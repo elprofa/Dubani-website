@@ -1,30 +1,28 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
-import SectionAccueilMoleculeLeft from '../components/molecule/SectionAccueilMoleculeLeft';
+import SectionAccueil from '../components/template/SectionAccueil';
+import SectionProjects from '../components/template/SectionProjects';
+import SectionProduction from '../components/template/SectionProduction';
+import SectionClient from '../components/template/SectionClients';
+import SectionTestimonial from '../components/template/SectionTestimonial';
+import SectionWhatWeDo from '../components/template/SectionwhatWeDo';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="App">
       <Head>
-        <title>Create Next App</title>
+        <title>dubani agency</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-       <SectionAccueilMoleculeLeft />
+      <main className="main">
+        <SectionAccueil/>
+        <SectionProjects/>
+        <SectionWhatWeDo/>
+        <SectionProduction/>
+        <SectionClient/>
+        <SectionTestimonial/>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }

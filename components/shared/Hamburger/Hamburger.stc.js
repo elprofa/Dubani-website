@@ -1,21 +1,9 @@
 import Styled from 'styled-components';
 
 const HamburgerStc=Styled.div`
-    /* background:#ccc;
 
-    height: 100vh;
-      width: 100%; */
-
-    .pattern {
-      position: absolute;
-      left: 20%;
-      width: 60%;
-      height: 100vh;
-      background: url('https://github.com/codegridweb/Sports-Theme-Landing-Page-Concept/blob/master/BG_Pattern.png') no-repeat 50% 50%;
-      z-index: -1;
-      opacity: 0.4;
-}
-
+width: ${(props)=>props.taille || "70"}px;
+cursor:pointer;
 .nav {
       width: 100%;
       height: 80px;
