@@ -7,9 +7,9 @@ import Titre from '../../shared/Titre';
 import SousTitre from '../../shared/SousTitre';
 
 const WeDo=[
-    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"},
-    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"},
-    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"}
+    {chemin:"/img/fpic1.svg",texte:"DESIGN"},
+    {chemin:"/img/fpic1.svg",texte:"DÉVELOPPEMENT"},
+    {chemin:"/img/fpic1.svg",texte:"MARKETING DIGITAL"}
 ];
 
 const SectionWhatWeDo=()=>{
