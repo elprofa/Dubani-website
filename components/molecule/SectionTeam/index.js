@@ -18,12 +18,12 @@ const SectionTeam=()=>{
                 <Row>
                     <Col lg={12}>
                         <SousTitre 
-                            texte="OUR TIGERS" 
+                            texte="NOS TIGRES" 
                             marge_haut="30px" 
                             marge_bas="20px" 
                             poid_font="400"/>
                         <Titre 
-                        texte="Teams " 
+                        texte="EQUIPE " 
                         poid_font="700"/>
                     </Col>
                 </Row>

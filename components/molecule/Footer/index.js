@@ -35,9 +35,11 @@ const Footer = (props) => {
                             alignement="left" 
                             marge_haut="20" 
                         >
-                            Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
-                            à titre provisoire pour calibrer une mise en page, le texte définitif venant 
-                            remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. 
+                            DUBAI AGENGY  est une agence digitale,Une agence digitale est spécialisée
+                             dans la création de contenus digitaux pour les entreprises, les institutions. 
+                             C’est une agence de communication capable de créer des sites internet et de proposer 
+                             toutes les prestations liées au webmarketing.
+
                         </Texte>
                     </Col>
                     <Col md={6}>

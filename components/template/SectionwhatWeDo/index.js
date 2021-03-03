@@ -21,13 +21,13 @@ const SectionWhatWeDo=()=>{
                     <Col lg={6} >
                         <Courbe couleur="#333" />
                         <SousTitre 
-                            texte="WHAT" 
+                            texte="CE QUE" 
                             marge_haut="30px" 
                             marge_bas="20px" 
                             couleur="#fff"
                             poid_font="400"/>
                         <Titre 
-                            texte="WE ARE DO " 
+                            texte="nous faisons " 
                             couleur="#fff" 
                             marge_bas="40px"
                             poid_font="700"/>

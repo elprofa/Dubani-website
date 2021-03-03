@@ -39,7 +39,7 @@ const services=[
                     <Col md={12}>
                     <Courbe couleur="#ccc" marge_bas="40px" className="CourbeAccueil" />
                         <SousTitre 
-                            texte="AREA OF EXPERTISE" 
+                            texte="AIRE D’EXPERTISE" 
                             marge_haut="30px" 
                             marge_bas="20px" 
                             poid_font="400"/>

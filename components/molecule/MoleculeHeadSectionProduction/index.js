@@ -13,12 +13,12 @@ const SectionProductionMoleculeHead=()=>{
             <Col lg={6} >
                 <Courbe couleur="#ccc" />
                 <SousTitre 
-                    texte="OUR LAST" 
+                    texte="NOS DERNIERES" 
                     marge_haut="30px" 
                     marge_bas="20px" 
                     poid_font="400"/>
                 <Titre 
-                    texte="Productionss " 
+                    texte="Productions " 
                     poid_font="700"/>
             </Col>
 
