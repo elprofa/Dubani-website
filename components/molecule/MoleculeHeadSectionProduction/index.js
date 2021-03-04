@@ -6,6 +6,7 @@ import MonBouton from '../../shared/Bouton';
 import Courbe from '../../shared/CourbeOndulaire';
 import {BsArrowRight} from "react-icons/bs";
 import { Col} from "reactstrap";
+import Link from 'next/link'
 
 const SectionProductionMoleculeHead=()=>{
     return(
@@ -23,7 +24,11 @@ const SectionProductionMoleculeHead=()=>{
             </Col>
 
             <Col lg={6} className="MonBouton">
-                <MonBouton texte="MORE PROJECTS"  bg="#0a2db0" bg_after="#fff" marge_haut="80px" couleur="#000" icon={<BsArrowRight />} />
+                <Link href="project">
+                    <a>
+                        <MonBouton texte="MORE PROJECTS"  bg="#0a2db0" bg_after="#fff" marge_haut="80px" couleur="#000" icon={<BsArrowRight />} />
+                    </a>
+                </Link>
             </Col>
         </SectionProductionMoleculeHeadStc>
     )

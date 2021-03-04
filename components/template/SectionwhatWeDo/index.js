@@ -5,11 +5,18 @@ import MoleculeWhatWeDo from '../../molecule/MoleculeWhatWeDo';
 import Courbe from '../../shared/CourbeOndulaire';
 import Titre from '../../shared/Titre';
 import SousTitre from '../../shared/SousTitre';
+import {BsArrowRight} from "react-icons/bs";
+import MonBouton from '../../shared/Bouton';
+import Link from 'next/link';
+import { AiOutlineContacts } from "react-icons/ai";
+import { AiOutlineAppstoreAdd } from "react-icons/ai";
+import { AiOutlineShop } from "react-icons/ai";
+
 
 const WeDo=[
-    {chemin:"/img/fpic1.svg",texte:"DESIGN"},
-    {chemin:"/img/fpic1.svg",texte:"DÉVELOPPEMENT"},
-    {chemin:"/img/fpic1.svg",texte:"MARKETING DIGITAL"}
+    {icon:<AiOutlineContacts />,texte:"DESIGN"},
+    {icon:<AiOutlineAppstoreAdd />,texte:"DÉVELOPPEMENT"},
+    {icon:<AiOutlineShop />,texte:"MARKETING DIGITAL"}
 ];
 
 const SectionWhatWeDo=()=>{
@@ -36,10 +43,26 @@ const SectionWhatWeDo=()=>{
                 <Row>
                    
                         {
-                            WeDo.map((element,index)=> <Col md={4} key={index}><MoleculeWhatWeDo chemin={element.chemin}
+                            WeDo.map((element,index)=> <Col md={4} key={index}><MoleculeWhatWeDo icon={element.icon}
                             texte={element.texte} /></Col>)
                         }
                     
+                </Row>
+                <Row>
+                    <Col lg={12} className="bottomWatWeDo" >
+                        <Link href="service">
+                            <a>
+                            <MonBouton 
+                                bg="transparent" 
+                                bg_after="transparent"
+                                couleur="#000" 
+                                texte="Plus de détail" 
+                                taille="14px"
+                                largeur="150px"
+                                icon={<BsArrowRight />} />
+                                </a>
+                            </Link>
+                    </Col>
                 </Row>
             </Container>
 

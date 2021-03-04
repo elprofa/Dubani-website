@@ -14,6 +14,11 @@ const MoleculeBottomSectionAccueilStc=Styled(Row)`
         position: absolute;
     }
 
+    @media (max-height: 570px) {
+        position: relative;
+        margin: 10px 0px !important;
+    }
+
     .right
     {
         text-align:left;
