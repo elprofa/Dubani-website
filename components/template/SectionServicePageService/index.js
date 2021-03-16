@@ -14,19 +14,19 @@ const SectionService=()=>{
 const services=[
     {
         titre:"Digital Marketing",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Digital-Marketing.jpeg",
         position:"left",
         description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,"
     },
     {
         titre:"Web Experience",
-        picture:"/img/fpic1.svg",
+        picture:"/img/web-experience-working-coworking.jpg",
         position:"right",
         description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,"
     },
     {
         titre:"App Developpement",
-        picture:"/img/fpic1.svg",
+        picture:"/img/App_Dev.jpg",
         position:"left",
         description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,"
     }
