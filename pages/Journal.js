@@ -10,6 +10,9 @@ const Wrapper = styled.div`
   .row {
     margin: 0px;
   }
+  .ongletDeux {
+    color: #000;
+  }
 
   button {
     margin: 20px auto;
@@ -55,9 +58,9 @@ export default function Journal() {
       <SectionJournal/>
       <Container>
       <Row>
-        <Col lg={1} className='onglet'>All</Col>
-        <Col lg={1}  className='onglet'>2020</Col>
-        <Col lg={1} className='onglet'>2021</Col> 
+        <Col lg={1} className='ongletUn'>All</Col>
+        <Col lg={1}  className='ongletDeux'>2020</Col>
+        <Col lg={1} className='ongletTrois'>2021</Col> 
       </Row>
         <div className="divMiddle">
           {ListeGrille.map((grille) => (
