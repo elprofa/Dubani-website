@@ -24,9 +24,9 @@ const Footer = (props) => {
                 <Row>
                     <Col md={3}>
                         <MonImage 
-                            chemin="/img/fpic1.svg"
-                            largeur="100"
-                            hauteur="100"
+                            chemin="/img/Logo-dubany.jpg"
+                            largeur="80"
+                            hauteur="40"
                         />
                         <Courbe couleur="#fff" marge_bas="40" marge_haut="80" className="CourbeTestimonaial"/>
                         <Texte 
@@ -42,7 +42,7 @@ const Footer = (props) => {
                     </Col>
                     <Col md={6}>
                         <MonImage 
-                            chemin="/img/world-map.png"
+                            chemin="/img/world_map_connected.svg"
                             
                         />
                     </Col>
