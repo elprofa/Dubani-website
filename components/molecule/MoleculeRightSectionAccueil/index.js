@@ -21,7 +21,7 @@ const SectionAccueilMoleculeRight=(props)=>{
   
     return (
         <SectionAccueilMoleculeRightStc ref={molDroite}>
-            <MonImage chemin="/img/chat.svg"  />
+            <MonImage chemin="/img/undraw1.svg"  />
         </SectionAccueilMoleculeRightStc>
     )
 }

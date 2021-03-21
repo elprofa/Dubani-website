@@ -9,5 +9,11 @@ const SectionWhatWeDoStc=Styled.section`
     }
     padding-top:10%;
     padding-bottom:80px;
+
+    .bottomWatWeDo
+    {
+        text-align:center;
+        margin-top:20px;
+    }
 `;
 export default SectionWhatWeDoStc;

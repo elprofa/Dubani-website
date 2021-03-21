@@ -26,10 +26,10 @@ const responsive = {
   }
 };
 const colors = [
-  {chemin:"/img/register.jpg",lien:""},
-  {chemin:"/img/register.jpg",lien:""},
-  {chemin:"/img/register.jpg",lien:""},
-  {chemin:"/img/register.jpg",lien:""}
+  {chemin:"/img/img1.jpg",lien:""},
+  {chemin:"/img/img2.jpg",lien:""},
+  {chemin:"/img/img3.jpg",lien:""},
+  {chemin:"/img/img5.jpg",lien:""}
 ];
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.

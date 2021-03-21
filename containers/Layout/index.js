@@ -7,7 +7,6 @@ import { theme } from "../../theme";
 import { GlobalCSS } from "../../public/styles/style";
 import Footer from "../../components/molecule/Footer";
 
-
 const Layout = ({ children, ...props }) => {
   return (
     <ThemeProvider theme={theme}>
@@ -15,6 +14,7 @@ const Layout = ({ children, ...props }) => {
         <title>My page title</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="stylesheet" href="https://use.typekit.net/pgv8psy.css" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
       </Head>
       <GlobalCSS />
       <Navbar />

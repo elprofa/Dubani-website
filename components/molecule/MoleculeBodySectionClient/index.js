@@ -4,14 +4,14 @@ import CardClient from '../../shared/CardClient';
 import {Col,Row} from "reactstrap";
 
 const Listes=[
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"},
-    {chemin:"/img/fpic1.svg",lien:"www.wedo.com"}
+    {chemin:"/img/img9.png",lien:"www.wedo.com"},
+    {chemin:"/img/img10.jpg",lien:"www.wedo.com"},
+    {chemin:"/img/img8.png",lien:"www.wedo.com"},
+    {chemin:"/img/img11.png",lien:"www.wedo.com"},
+    {chemin:"/img/img12.jpg",lien:"www.wedo.com"},
+    {chemin:"/img/img13.jpg",lien:"www.wedo.com"},
+    {chemin:"/img/img15.png",lien:"www.wedo.com"},
+    {chemin:"/img/img16.jpg",lien:"www.wedo.com"}
 ]
 
 const SectionClientMoleculeBody=()=>{

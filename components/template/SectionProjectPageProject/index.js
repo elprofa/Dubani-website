@@ -64,12 +64,12 @@ const SectionProjectPageProject=()=>{
                     <Col lg={12}>
                         <Courbe couleur="#686868" marge_bas="40" className="CourbeAccueil"/>
                         <SousTitre 
-                                texte="OUR" 
+                                texte="NOS" 
                                 marge_haut="30px" 
                                 marge_bas="20px" 
                                 poid_font="400"/>
                             <Titre 
-                            texte="Projects " 
+                            texte="Projets " 
                             poid_font="700"/>
                     </Col>
                 </Row>

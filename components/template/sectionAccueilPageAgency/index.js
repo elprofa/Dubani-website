@@ -11,19 +11,23 @@ const SectionAccueilPageAgency=()=>{
                 <Row>
                     <Col lg={12}>
                         <SousTitre 
-                            texte="YOUR PARTNER IN DIGITAL" 
+                            texte="VOTRE MEILLEUR PARTENAIRE DIGITAL ET WEB MARKETING" 
                             marge_haut="30px" 
                             marge_bas="40px" 
                             poidFont="400"/>
                         <Titre 
-                            texte="We Pride Ourselves By " 
+                            texte="Nous sommes honorer de fournir
+                            " 
                             poidFont="700"/>
                         <Titre 
-                            texte="Providing Top-Notch Digital " 
+                            texte="un numérique de premier ordre et
+                            " 
                             poidFont="700"/>
                         <Titre 
-                            texte="Media services " 
+                            texte="des services média de qualité
+                            " 
                             poidFont="700"/>
+                        
                     </Col>
                 </Row>
             </Container>

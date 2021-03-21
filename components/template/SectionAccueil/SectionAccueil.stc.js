@@ -8,6 +8,12 @@ const SectionAccueilStc=Styled(Container)`
    padding-top:33%;
    overflow:hidden;
 
+   @media (max-height: 570px) {
+        
+        height:auto;
+        overflow:auto;
+    }
+
    @media (min-width: 525px) {
       padding-top:10%;
     }

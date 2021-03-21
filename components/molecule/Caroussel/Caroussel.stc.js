@@ -5,7 +5,7 @@ const CarousselStc=Styled.div`
     width:400px;
     height:200px;
     @media (min-width: 476px) {
-        height:400px;
+        height:350px;
     }
 
     &:first-child
