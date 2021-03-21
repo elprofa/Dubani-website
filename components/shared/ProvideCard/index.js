@@ -16,7 +16,7 @@ const ProvideCard=(props)=>{
                     {props.texte}
                 </Texte>
                   <Texte  couleur="#fff" taille="14px">
-                  Le lorem ipsum est, en imprimerie  
+                  {props.caption}  
                   </Texte>
                 </div>
              </div>

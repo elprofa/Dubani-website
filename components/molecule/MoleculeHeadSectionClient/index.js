@@ -16,22 +16,25 @@ const SectionClientMoleculeHead=()=>{
                <Col lg={6} >
                     <Courbe couleur="#527bce" />
                     <SousTitre 
-                        texte="OUR" 
+                        texte="NOS" 
                         marge_haut="30px" 
                         marge_bas="20px" 
                         couleur="#fff"
                         poid_font="400"/>
                     <Titre 
-                        texte="Happy Clients " 
+                        texte="heureux clients" 
                         couleur="#fff"
                         poid_font="700"/>
                 </Col>
 
             <Col lg={6} className="MonTexte">
-                <Texte couleur="#fff" alignement="left">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae porro quod fugit molestias accusantium quasi dolor nostrum, numquam magni veniam, ipsum mollitia, aperiam iste, excepturi! Quasi id, voluptate quod!
-		        Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Aliquam inventore quasi tempore, voluptatum possimus officia impedit temporibus autem sunt, praesentium iusto quam ut labore excepturi unde sed, cumque officiis voluptas!
-                </Texte>
+                <Texte couleur="#fff" alignement="left" marge_haut="40px">
+                Nous faisons de la relation client un atout incontournable dans le 
+                développement de notre activité. Développer le portefeuille client  
+                avec nos experts est notre atout fondamental ,dans la vision que nous
+                 nous sommes fixée. nous disposons notre oreille aux client afin de ressortir 
+                 le potentiel exponentiel de la stratégie adaptée.
+                 </Texte>
             </Col>
                </Row>
            </Container>

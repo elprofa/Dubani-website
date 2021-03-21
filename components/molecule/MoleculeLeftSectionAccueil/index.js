@@ -13,18 +13,16 @@ const SectionAccueilMoleculeLeft=(props)=>{
         <SectionAccueilMoleculeLeftStc ref={props.reference}>
             <Courbe couleur="#0a2db0" marge_bas="40px" className="CourbeAccueil" />
             <SousTitre 
-                texte="WE DESIGN AND DEVELOP" 
+                texte="FAITES GRANDIR VOTRE VISIBILITÉ ET VOTRE NOTORIÉTÉ " 
                 marge_haut="30px" 
                 marge_bas="20px" 
                 poid_font="400"/>
             <Titre 
-                texte="Persuasive Websites And " 
+                texte="Avec une  agence experte dans la creations des contenus digitaux. " 
                 poid_font="700"/>
-            <Titre 
-                texte="Mobile App " 
-                poid_font="700"/>
+            
             <Bouton 
-                texte="HIRE US" 
+                texte="EMBAUCHEZ NOUS" 
                 bg="#ccc" 
                 bg_after="#0a2db0"
                 couleur="#fff"/>

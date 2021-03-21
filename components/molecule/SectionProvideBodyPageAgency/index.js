@@ -5,12 +5,12 @@ import {Col} from 'reactstrap';
 
 const SectionProvideBody=()=>{
     const provides=[
-        {texte:"LIBERALISTIC",caption:"We value Our Employees & Stackholders for New Ideas or Opinions"},
-        {texte:"IDEAL",caption:"We value Our Employees & Stackholders for New Ideas or Opinions"},
-        {texte:"NON-STOP",caption:"We value Our Employees & Stackholders for New Ideas or Opinions"},
-        {texte:"KNOWLEDGE",caption:"We value Our Employees & Stackholders for New Ideas or Opinions"},
-        {texte:"SUCCESS",caption:"We value Our Employees & Stackholders for New Ideas or Opinions"},
-        {texte:"TECHNOLOGY",caption:"We value Our Employees & Stackholders for New Ideas or Opinions"},
+        {texte:"LIBERALISME",caption:" le libre jeu de l'entreprise ne doit pas être entravé."},
+        {texte:"IDEAL",caption:"atteindre la perfection de ce que l’on conçoit"},
+        {texte:"NON-STOP",caption:"notre équipe est toujours à votre écoute. notre travail, notre priorité"},
+        {texte:"CONNAISSANCE",caption:"notre équipe est toujours à votre écoute. notre travail, notre priorité"},
+        {texte:"SUCCÈS",caption:"notre place parmi les meilleurs"},
+        {texte:"TECHNOLOGIE",caption:"nous découvrons tout les jours de nouvelles technologies capable de vous séduire"},
 
     ]
     return (

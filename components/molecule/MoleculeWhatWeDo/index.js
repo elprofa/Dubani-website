@@ -6,10 +6,11 @@ import Texte from '../../shared/Texte';
 import {BsArrowRight} from "react-icons/bs";
 import MonBouton from '../../shared/Bouton';
 
+
 const WhatWeDo=(props)=>{
     return (
         <WhatWeDoStc>
-            <MonImage chemin={props.chemin} largeur="100" hauteur="100"/>
+            <span className="span">{props.icon}</span>
             <Texte 
                 couleur="#000" 
                 marge_bas="40px" 
@@ -21,9 +22,9 @@ const WhatWeDo=(props)=>{
                {props.texte}
         </Texte>
         <MonBouton 
-        bg="#0a2db0" 
-        bg_after="#fff"
-        couleur="#000" 
+        bg="transparent" 
+        bg_after="transparent"
+        couleur="#0a2db0" 
         taille="24px"
         largeur="150px"
         icon={<BsArrowRight />} />

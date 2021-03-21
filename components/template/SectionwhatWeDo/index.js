@@ -5,11 +5,18 @@ import MoleculeWhatWeDo from '../../molecule/MoleculeWhatWeDo';
 import Courbe from '../../shared/CourbeOndulaire';
 import Titre from '../../shared/Titre';
 import SousTitre from '../../shared/SousTitre';
+import {BsArrowRight} from "react-icons/bs";
+import MonBouton from '../../shared/Bouton';
+import Link from 'next/link';
+import { AiOutlineContacts } from "react-icons/ai";
+import { AiOutlineAppstoreAdd } from "react-icons/ai";
+import { AiOutlineShop } from "react-icons/ai";
+
 
 const WeDo=[
-    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"},
-    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"},
-    {chemin:"/img/fpic1.svg",texte:"Marketing Digital"}
+    {icon:<AiOutlineContacts />,texte:"DESIGN"},
+    {icon:<AiOutlineAppstoreAdd />,texte:"DÉVELOPPEMENT"},
+    {icon:<AiOutlineShop />,texte:"MARKETING DIGITAL"}
 ];
 
 const SectionWhatWeDo=()=>{
@@ -21,13 +28,13 @@ const SectionWhatWeDo=()=>{
                     <Col lg={6} >
                         <Courbe couleur="#333" />
                         <SousTitre 
-                            texte="WHAT" 
+                            texte="CE QUE" 
                             marge_haut="30px" 
                             marge_bas="20px" 
                             couleur="#fff"
                             poid_font="400"/>
                         <Titre 
-                            texte="WE ARE DO " 
+                            texte="nous faisons " 
                             couleur="#fff" 
                             marge_bas="40px"
                             poid_font="700"/>
@@ -36,10 +43,26 @@ const SectionWhatWeDo=()=>{
                 <Row>
                    
                         {
-                            WeDo.map((element,index)=> <Col md={4} key={index}><MoleculeWhatWeDo chemin={element.chemin}
+                            WeDo.map((element,index)=> <Col md={4} key={index}><MoleculeWhatWeDo icon={element.icon}
                             texte={element.texte} /></Col>)
                         }
                     
+                </Row>
+                <Row>
+                    <Col lg={12} className="bottomWatWeDo" >
+                        <Link href="service">
+                            <a>
+                            <MonBouton 
+                                bg="transparent" 
+                                bg_after="transparent"
+                                couleur="#000" 
+                                texte="Plus de détail" 
+                                taille="14px"
+                                largeur="150px"
+                                icon={<BsArrowRight />} />
+                                </a>
+                            </Link>
+                    </Col>
                 </Row>
             </Container>
 

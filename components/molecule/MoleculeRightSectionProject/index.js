@@ -5,7 +5,7 @@ import MonImage from '../../shared/MonImage';
 const MoleculeRightSectionProject=()=>{
     return (
         <MoleculeRightSectionProjectStc>
-            <MonImage chemin="/img/android.svg" />
+            <MonImage chemin="/img/undraw4.svg" />
         </MoleculeRightSectionProjectStc>
     )
 }
