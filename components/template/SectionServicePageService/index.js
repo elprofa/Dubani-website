@@ -14,7 +14,7 @@ const SectionService=()=>{
 const services=[
     {
         titre:"Direction artistique",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_Direction-Artistique.jpg",
         position:"left",
         description:"Nous vous assurons la conception et la réalisation artistique de votre "+
         "projet tout en travaillant ensemble pour déceler la bonne idée de votre projet."+
@@ -26,7 +26,7 @@ const services=[
     },
     {
         titre:"web design ",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_Web-Design.jpg",
         position:"right",
         description:"Pourquoi faire appel à DUBANI AGENCE web ?"+
         "Il existe aujourd’hui des solutions de création simplifiées avec 1&1 ou Wix par exemple. Ce principe de création peut être adapté pour "+
@@ -40,7 +40,7 @@ const services=[
     },
     {
         titre:"papeterie",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_LettrePress-2.jpg",
         position:"left",
         description:"En plus de la réalisation de webdesign, nous sommes de grands amoureux du papier de qualité et des belles "+
         "polices de caractères. Nous réalisons des cartes de visites, des papiers à en-tête, des brochures, etc."
@@ -48,7 +48,7 @@ const services=[
     ,
     {
         titre:"letterpress",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_LettrePress-1.jpg",
         position:"right",
         description:"Le letterpress (ou « Impression typographique » en français) est l’art d’imprimer mécaniquement des formes en relief dans "+
         "du papier. C’était la technique d’impression la plus répandue. DUBANI AGENCE confectionne et réalise tous les documents que l’on veut "+
@@ -58,7 +58,7 @@ const services=[
     ,
     {
         titre:"Développement mobile",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_Developpement-mobil.jpg",
         position:"left",
         description:"Notre agence web conçoit de belles applications mobiles et des interfaces utilisateurs réactives. Nous développons des "+
         "applications pour tout type d'activités et nous collaborons ainsi à la transformation de vos idées  en réalité. Nous utilisons les "+
@@ -69,7 +69,7 @@ const services=[
     },
     {
         titre:"Développement front end ",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_Developpement-Front-End-1.jpg",
         position:"right",
         description:"Le terme « frontend » désigne les éléments d’un site que l’on voit à l’écran et avec lesquels on peut interagir depuis un "+
         "navigateur. En effet, tout ce qu’on voit sur un site internet par exemple, est une combinaison de HTML, CSS et JavaScript. Ces langages "+
@@ -85,7 +85,7 @@ const services=[
      },
      {
          titre:"Développement back end ",
-         picture:"/img/fpic1.svg",
+         picture:"/img/Dubany_Agency_Developpement-Back-End-1.jpg",
          position:"left",
          description:"Le « backend » est un peu comme la partie immergée d’un iceberg. On ne la voit pas en tant que simple Internaute mais "+
          "elle représente une très grande partie d’un projet web."+
@@ -113,7 +113,7 @@ const services=[
       ,
      {
          titre:"DRUPAL ",
-         picture:"/img/fpic1.svg",
+         picture:"/img/Dubani_Agency-Drupal.png",
          position:"right",
          description:"Drupal est  un CMS très performant à ne pas négliger. En cas de projets de grande envergure, Drupal peut tout à fait être "+
          "une solution à envisager en raison des nombreux modules déjà proposés et du savoir-faire de nos développeurs Drupal qui créeront des "+
@@ -125,7 +125,7 @@ const services=[
       ,
      {
          titre:"WORDPRESS ",
-         picture:"/img/fpic1.svg",
+         picture:"/img/Dubani_Agency-WordPress.jpg",
          position:"left",
          description:"WordPress WeAre[WP] est une agence de communication digitale spécialisée sur la solution de création de sites internet "+
          "avec le CMS WordPress. Nous accompagnons les entreprises dans leur visibilité sur le web et dans la mise en œuvre de stratégie "+
@@ -134,7 +134,7 @@ const services=[
       ,
      {
          titre:"NODE JS ",
-         picture:"/img/fpic1.svg",
+         picture:"/img/Dubani_Agency-Node-JS-5.jpg",
          position:"right",
          description:"Node.js est une plateforme logicielle libre en JavaScript, orientée vers les applications réseau événementielles "+
          "hautement concurrentes qui doivent pouvoir monter en charge.Parmi les modules natifs de Node.js, on retrouve http qui permet le "+
@@ -144,7 +144,7 @@ const services=[
       ,
       {
           titre:"MARKETING DIGITAL",
-          picture:"/img/fpic1.svg",
+          picture:"/img/Dubani-Agency-Marketing-Digital.jpg",
           position:"left",
           description:"Le marketing désigne l’ensemble des actions qui ont pour objectif de prévoir, de connaître, de stimuler les besoins "+
           "des consommateurs à l’égard des biens et des services et enfin d’adapter la production et la commercialisation aux besoins ainsi "+
@@ -163,7 +163,7 @@ const services=[
        ,
        {
            titre:"GESTION DES PROJETS",
-           picture:"/img/fpic1.svg",
+           picture:"/img/Dubani_Agency-Gestion-de-Projet-1.jpg",
            position:"right",
            description:"Nous proposons un suivi de projet tout au long de la vie de votre produit. Chaque site que nous concevons est unique, "+
            "c’est pourquoi notre suivi de projet s’adapte en conséquence. Nous organisons des points réguliers avec les différents protagonistes "+
@@ -173,7 +173,7 @@ const services=[
         ,
        {
            titre:"COMMUNICATION",
-           picture:"/img/fpic1.svg",
+           picture:"/img/Dubani_Agency-Communication.jpg",
            position:"left",
            description:"La communication est un pilier du marketing. Il repose sur deux stratégies, l’une désignée par le terme “pull” et l’autre "+
            "désignée par le terme “push”."+
@@ -185,7 +185,7 @@ const services=[
         ,
        {
            titre:"REFERENCEMENT",
-           picture:"/img/fpic1.svg",
+           picture:"/img/Dubani_Agency-SEO-1.jpg",
            position:"right",
            description:"Nous vous accompagnons tout au long de votre projet sur les différentes problématiques liées au SEO. Idéalement nous "+
            "intervenons en amont de votre projet."+
@@ -198,35 +198,35 @@ const services=[
         ,
         {
             titre:"CONCEPTION ET STRATÉGIE  DE MARQUE",
-            picture:"/img/fpic1.svg",
+            picture:"/img/Dubani_Agency-CONCEPTION-ET-STRATÉGIE-DE-MARQUE-1.jpg",
             position:"left",
             description:"DUBANI AGENCE affine  votre marque afin qu’elle soit acceptée par vos clients et portée avec honneur par l’ensemble de vos collaborateurs."
          }
          ,
         {
             titre:"CONTENT MARKETING",
-            picture:"/img/fpic1.svg",
+            picture:"/img/Dubani_Agency-CONTENT-MARKETING-1.jpg",
             position:"right",
             description:"La créativité des textes est au cœur de votre communication. Se faire un nom auprès des experts et suivre l’actualité sont les garants de la réussite."
          }
          ,
          {
              titre:"GOOGLE ADS MARKETING",
-             picture:"/img/fpic1.svg",
+             picture:"/img/Dubani_Agency-GOOGLE-ADS-MARKETING-2.png",
              position:"left",
              description:"DUBANI AGENCE conçoit  tous les formats d’annonces de votre publicité Google : à travers les réseaux Display, l’email marketing."
           }
           ,
          {
              titre:"COMMUNITY MANAGEMENT",
-             picture:"/img/fpic1.svg",
+             picture:"/img/Dubani_Agency-Community-Management-2.svg",
              position:"right",
              description:""
           }
           ,
           {
               titre:"SOCIAL MEDIA MARKETING",
-              picture:"/img/fpic1.svg",
+              picture:"/img/Dubani_Agency-SOCIAL-MEDIA-MARKETING-4.jpg",
               position:"left",
               description:"Nous boostons des campagnes publicitaires efficaces et rentables, en s’appuyant sur la divulgation des publicités "+
               "parlantes avec nos expert."
@@ -234,21 +234,21 @@ const services=[
            ,
           {
               titre:"WAZE ADS",
-              picture:"/img/fpic1.svg",
+              picture:"/img/Dubani_Agency-Waze-ADS.png",
               position:"right",
               description:"Nous définissons la bonne pratique publicitaire des solutions proposées par la première application de navigation communautaire au monde : Waze Ads."
            }
            ,
            {
                titre:"VIDEO MARKETING",
-               picture:"/img/fpic1.svg",
+               picture:"/img/Dubani_Agency-marketing-video-1.jpg",
                position:"left",
                description:"Les professionnelles de DUBANI AGENCE vous garantit la visibilité de vos vidéos grâce à notre expertise artistique."
             }
             ,
            {
                titre:"DIGITAL STRATEGY",
-               picture:"/img/fpic1.svg",
+               picture:"/img/Dubani_Agency-Digital-Strategy-1.jpg",
                position:"right",
                description:"Avec nos experts ne rester pas sur le banc de touche.soyez le maître de vos œuvres avec des stratégies adéquates."
             }

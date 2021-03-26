@@ -30,7 +30,7 @@ const Footer = (props) => {
               className="CourbeTestimonaial"
             />
             <Texte
-              couleur="#908484"
+              couleur="#fff"
               marge_bas="00"
               alignement="left"
               marge_haut="20"
@@ -70,7 +70,7 @@ const Footer = (props) => {
         <Row>
           <Col md={6}>
             <Texte couleur="#fff" alignement="left">
-              © 2021 Mabbly, LLC. All rights reserved.
+              © Dubani Agency 2021 Mabbly, LLC. All rights reserved.
             </Texte>
           </Col>
           <Col md={6}>

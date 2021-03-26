@@ -15,7 +15,7 @@ const SectionService=()=>{
             <Container>
                 <Row>
                     <Col md={12}>
-                        <Texte marge_bas="20px" taille="16px" marge_haut="20px">
+                        <Texte marge_bas="20px" taille="16px" marge_haut="20px" alignement="justify">
                             Le lorem ipsum est, en 
                         </Texte>
 
@@ -45,7 +45,7 @@ const SectionService=()=>{
                         </span>
                     </div>
                     <Col md={12}>
-                    <Texte marge_bas="20px" marge_haut="50px">
+                    <Texte marge_bas="20px" marge_haut="50px" alignement="justify" >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

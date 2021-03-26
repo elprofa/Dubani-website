@@ -2,7 +2,7 @@ import React from 'react';
 import Styled from 'styled-components';
 
 const FooterStc=Styled.div`
-    background:#000;
+    background:#080250;
     padding-top:80px;
     padding-bottom:80px;
 
