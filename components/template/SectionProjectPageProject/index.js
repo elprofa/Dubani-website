@@ -10,21 +10,21 @@ const SectionProjectPageProject=()=>{
 
     const projects=[
         {
-            chemin:"/img/workplace.jpg",
+            chemin:"/img/xpatsa-img.PNG",
+            posted:'05 October 2021',
+            bg:"/img/Tb.PNG",
+            titre:"Project Name",
+            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
+        },
+        {
+            chemin:"/img/Dubani_Agency-3.PNG",
             posted:'05 October 2021',
             bg:"/img/technology.jpg",
             titre:"Project Name",
             description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
         },
         {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
-            bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
-        },
-        {
-            chemin:"/img/workplace.jpg",
+            chemin:"/img/Dubani_Agency-5.PNG",
             posted:'05 October 2021',
             bg:"/img/technology.jpg",
             titre:"Project Name",

@@ -1,7 +1,7 @@
 import Styled from 'styled-components';
 
 const sectionAccueilPageAgencyStc=Styled.section`
-    background-image:url(/img/agency.jpg);
+    background-image:url(/img/Dubani_Agency-Digital-Marketing-1.jpg);
     background-size:cover;
     height:100vh;
     padding-top:15%;

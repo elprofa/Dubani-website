@@ -7,9 +7,9 @@ import Teams from '../../shared/TeamCard';
 
 const SectionTeam=()=>{
     const teams=[
-        {picture:"/img/chat.svg",name:"Elprofa",caption:"Lead Developper"},
-        {picture:"/img/chat.svg",name:"Elprofa",caption:"Lead Developper"},
-        {picture:"/img/chat.svg",name:"Elprofa",caption:"Lead Developper"},
+        {picture:"/img/Dubani_Agency_User.svg",name:"Wedo",caption:"Lead Developper"},
+        {picture:"/img/Dubani_Agency_User.svg",name:"David",caption:"Lead Developper"},
+        {picture:"/img/Dubani_Agency_User.svg",name:"Kurt",caption:"Lead Developper"},
     ]
 
     return (
