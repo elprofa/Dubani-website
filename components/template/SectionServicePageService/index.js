@@ -26,7 +26,7 @@ const services=[
     },
     {
         titre:"web design ",
-        picture:"/img/Dubani_Agency_Web-Design.jpg",
+        picture:"/img/Dubani_Agency_Web-Design-3.jpg",
         position:"right",
         description:"Pourquoi faire appel à DUBANI AGENCE web ?"+
         "Il existe aujourd’hui des solutions de création simplifiées avec 1&1 ou Wix par exemple. Ce principe de création peut être adapté pour "+
@@ -113,7 +113,7 @@ const services=[
       ,
      {
          titre:"DRUPAL ",
-         picture:"/img/Dubani_Agency-Drupal.png",
+         picture:"/img/Dubani_Agency-Drupal-3.jpg",
          position:"right",
          description:"Drupal est  un CMS très performant à ne pas négliger. En cas de projets de grande envergure, Drupal peut tout à fait être "+
          "une solution à envisager en raison des nombreux modules déjà proposés et du savoir-faire de nos développeurs Drupal qui créeront des "+
@@ -125,7 +125,7 @@ const services=[
       ,
      {
          titre:"WORDPRESS ",
-         picture:"/img/Dubani_Agency-WordPress.jpg",
+         picture:"/img/Dubani_Agency-WordPress.png",
          position:"left",
          description:"WordPress WeAre[WP] est une agence de communication digitale spécialisée sur la solution de création de sites internet "+
          "avec le CMS WordPress. Nous accompagnons les entreprises dans leur visibilité sur le web et dans la mise en œuvre de stratégie "+
@@ -226,7 +226,7 @@ const services=[
           ,
           {
               titre:"SOCIAL MEDIA MARKETING",
-              picture:"/img/Dubani_Agency-SOCIAL-MEDIA-MARKETING-4.jpg",
+              picture:"/img/Dubani_Agency-SOCIAL-MEDIA-MARKETING-5.jpg",
               position:"left",
               description:"Nous boostons des campagnes publicitaires efficaces et rentables, en s’appuyant sur la divulgation des publicités "+
               "parlantes avec nos expert."
@@ -234,7 +234,7 @@ const services=[
            ,
           {
               titre:"WAZE ADS",
-              picture:"/img/Dubani_Agency-Waze-ADS.png",
+              picture:"/img/Dubani_Agency-Waze-ADS-2.jpg",
               position:"right",
               description:"Nous définissons la bonne pratique publicitaire des solutions proposées par la première application de navigation communautaire au monde : Waze Ads."
            }
