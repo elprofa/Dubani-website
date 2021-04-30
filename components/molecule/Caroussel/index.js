@@ -27,7 +27,7 @@ const responsive = {
 };
 const colors = [
   {chemin:"/img/gsn1.jpg",lien:"https://gsnauto.com/",titre:"GSN AUTO",resume:" GSN-AUTO est un garage automobile qui s'occupe de tous types de véhicules, voitures, poids lourds, motos,...Aujourd'hui, GSN-AUTO est satisfait d'avoir fait confiance à dubani Agency pour la conception et la réalisation de son site internet. "},
-  {chemin:"/img/win.jpg",lien:"http://www.wintech.africa.com/",titre:"WINTECH TECHNOLOGY",resume:""},
+  {chemin:"/img/win.jpg",lien:"http://www.wintech.africa.com/",titre:"WINTECH TECHNOLOGY",resume:"  Wintec est une entreprise spécialisée dans la construction des infrastructures industrielles. Il accompagne tous les producteurs du Gabon dans des projets de développement pétrolier et gazier et met en œuvre des solutions techniques innovantes pour  assurer la performance et la pérennité des outils de production des producteurs locaux."},
   {chemin:"/img/xpatsa.jpg",lien:"https://xpatsa.com/",titre:"XPATSA",resume:"X-PATSA est une agence de transfert d'argent disponible en Afrique du Sud, au Gabon et au Maroc. Créer depuis presque 10 ans, x-patsa est l'un des premier à  nous avoir fait confiance. Disponible dans 3 pays d'Afrique, en partenariat avec l'opérateur téléphonique Airtel, x-patsa veut se positionner dans la sous région, dans un premier temps comme un partenaire incontournable dans son domaine."},
 ];
 
