@@ -66,7 +66,7 @@ const SectionTestimonial = (props) => {
                                                                 {testimony.detail}
                                                         </Texte>
                                                         <Texte 
-                                                                couleur="#000" 
+                                                                couleur="#000 !important" 
                                                                 marge_bas="40px" 
                                                                 alignement="center" 
                                                                 marge_haut="40px" 
