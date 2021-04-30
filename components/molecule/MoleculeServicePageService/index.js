@@ -21,12 +21,12 @@ const MoleculeService=(props)=>{
                 <Texte taille="14px" marge_bas="40px">
                 {props.description}
                 </Texte>
-                <Bouton texte="VIEW PROJECT"
+                {/* <Bouton texte="VIEW PROJECT"
                     bg="#ccc"
                     bg_after="#fff"
                     marge_haut="0px" 
                     couleur="#333" 
-                    icon={<BsArrowRight />} />
+                    icon={<BsArrowRight />} /> */}
             </Col>
         </MoleculeStc>
     )
@@ -40,12 +40,12 @@ const MoleculeService=(props)=>{
                     <Texte taille="14px" marge_bas="40px">
                     {props.description}
                     </Texte>
-                    <Bouton texte="VIEW PROJECT"
+                    {/* <Bouton texte="VIEW PROJECT"
                         bg="#ccc"
                         bg_after="#fff"
                         marge_haut="0px" 
                         couleur="#333" 
-                        icon={<BsArrowRight />} />
+                        icon={<BsArrowRight />} /> */}
                 </Col>
                 <Col md={4}>
                     <MonImage chemin={props.picture} />

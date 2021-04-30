@@ -7,6 +7,7 @@ import Texte from "../../shared/Texte";
 import MonImage from "../../shared/MonImage";
 import ElementMenu from "../../shared/ELementMenu";
 import LineFooter from "../../shared/LineFooter";
+import Link from "next/link";
 
 const Menus = [
   { lien: "/agency", texte: "Agency" },
@@ -22,18 +23,20 @@ const Footer = (props) => {
       <Container>
         <Row>
           <Col md={3}>
-            <MonImage chemin="/img/logoV.svg" largeur="100" hauteur="100" />
+            <Link href="/">
+              <MonImage chemin="/img/logoV.svg" largeur="100" hauteur="100" />
+            </Link>
             <Courbe
               couleur="#fff"
-              marge_bas="40"
+              marge_bas="0"
               marge_haut="20"
               className="CourbeTestimonaial"
             />
             <Texte
-              couleur="#908484"
+              couleur="#fff"
               marge_bas="00"
               alignement="left"
-              marge_haut="20"
+              marge_haut="0"
             >
               DUBANI AGENGY est une agence digitale qui est
               spécialisée dans la création de contenus digitaux pour les
@@ -53,7 +56,7 @@ const Footer = (props) => {
                 <ElementMenu
                   couleur="#fff"
                   key={index}
-                  taille="22px"
+                  taille="20px"
                   marge_bas="40px"
                   texte={menu.texte}
                   lien={menu.lien}
@@ -72,12 +75,12 @@ const Footer = (props) => {
         <Row>
           <Col md={6}>
             <Texte couleur="#fff" alignement="left">
-              © 2021 Mabbly, LLC. All rights reserved.
+              © 2021 dubaniagency. Tous droits reservés.
             </Texte>
           </Col>
           <Col md={6}>
             <Texte couleur="#fff" alignement="Right">
-              Privacy policy
+              Politique de confidentialité
             </Texte>
           </Col>
         </Row>

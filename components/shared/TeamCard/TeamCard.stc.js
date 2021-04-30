@@ -17,5 +17,17 @@ const TeamStc=Styled(Card)`
         background:#ccc;
         border-radius: 100%;
     }
+
+    .soustitre
+    {
+        color: #2d519d !important;
+        font-weight: 600 !important;
+    }
+    p
+    {
+        text-align:center !important;
+        margin-top:0px !important;
+
+    }
 `;
 export default TeamStc;

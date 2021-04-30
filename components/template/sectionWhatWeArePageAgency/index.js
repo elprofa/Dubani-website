@@ -15,7 +15,7 @@ const SectionWhatWeArePageAgency=()=>{
                             marge_haut="30px" 
                             marge_bas="40px" 
                             poid_font="600"
-                            couleur="#333"
+                            couleur="#00418f"
                             />
                         <Texte couleur="#333" marge_haut="20">
                         La digitalisation  est l'élément par excellence d'accroître le portefeuille 
@@ -32,7 +32,7 @@ const SectionWhatWeArePageAgency=()=>{
                         marge_haut="30px" 
                         marge_bas="40px" 
                         poid_font="600"
-                        couleur="#333"
+                        couleur="#00418f"
                         />
                         <Texte couleur="#333" marge_haut="20">
                         l’expertise de DUBANI AGENCE est dans la création, et le développement 

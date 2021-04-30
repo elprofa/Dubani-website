@@ -28,41 +28,45 @@ const FormContact = (props) => {
   const { texte, backgroundcolor, color, icon } = props;
 
   return (
+    
+
     <FormContactStc>
       <Col lg={6}>
         <SousTitre
-          texte="PARTNER WITH US"
+          texte="PARTENAIRE AVEC NOUS"
           marge_haut="30px"
           marge_bas="20px"
           poid_font="400"
         />
-        <Titre texte="Let Us Help You Get " poid_font="700" />
-        <Titre texte="Your Projet Started" poid_font="700" marge_bas="40px;" />
+        <Titre texte="Laissez-nous vous aider " poid_font="700" />
+        <Titre texte="à commencer Votre projet " poid_font="700" marge_bas="40px;" />
 
         <div className="iconFormContact">
           <span className="mb-2">
-            <BiMapAlt className="my-2 mr-2" size={20} /> 45 A Street 13 Villa,
-            Al Barsha 2
+            <BiMapAlt className="my-2 mr-2" size={20} /> 31 allee des pruniers, Casablanca
           </span>
           <br />
           <span className="my-2">
-            <BiMobileAlt className="my-2 mr-2" size={20} /> +971 553776176
+            <BiMobileAlt className="my-2 mr-2" size={20} /> +212 707 187 736
           </span>
           <br />
           <span className="my-2">
-            <BiEnvelope className="my-2 mr-2" size={20} /> info@demo.com
+            <BiEnvelope className="my-2 mr-2" size={20} /> info@dubaniagency.com
           </span>
         </div>
         <div className="socialMedia">
           <SousTitre
-            texte="SOCIAL MEDIA"
+            texte="RESEAUX SOCIAUX"
             color="#000000"
             marge_haut="40px"
             marge_bas="20px"
             className="my-5"
           />
+         
           <span>
-            <FaFacebookF className="" />
+            <a href="https://www.facebook.com/dubaniagency" target="_blank" style={{color:"#fff"}}>
+              <FaFacebookF className="" />
+              </a>
           </span>
           <span>
             <FaLinkedinIn />
@@ -78,7 +82,8 @@ const FormContact = (props) => {
 
       <Col lg={6} className="light">
         <Texte marge_bas="40px" marge_haut="40px">
-          Hello, Tell us about your project
+          Hey,Raconte nous un peu plus sur ton projet
+
         </Texte>
         <Form>
           <InputGroup label="Name" id="nom" />
@@ -87,12 +92,12 @@ const FormContact = (props) => {
           <InputGroup typeInput="textarea" label="Message" id="message" />
           <FormGroup check>
             <Label check>
-              <Input type="checkbox" /> I understand that LinkSture will
-              securely hold my data in accordance with their Privacy Policy
+              <Input type="checkbox" /> Je comprends que dubani
+              conserver mes données en toute sécurité conformément à leur politique de confidentialité
             </Label>
           </FormGroup>
           <Bouton
-            texte="SUBMIT"
+            texte="Envyer"
             marge_haut="40px"
             bg="#ccc"
             bg_after="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"

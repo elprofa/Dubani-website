@@ -4,6 +4,7 @@ import Hamburger from '../../shared/Hamburger';
 import {Container,Navbar,Nav,Row,Col} from "react-bootstrap";
 import ElementMenuHeader from '../../shared/ElementMenuHeader';
 import { BsX } from "react-icons/bs";
+import MonImage from '../../shared/MonImage';
 
 const Overlay=(props)=>{
 
@@ -13,7 +14,7 @@ const Overlay=(props)=>{
                 <div className="overlay-content">
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
-                            <Navbar.Brand href="#home" >DUBANI</Navbar.Brand>
+                            <Navbar.Brand href="#home" > <MonImage chemin="/img/logoV.svg" largeur="100" hauteur="100" /></Navbar.Brand>
                             <Nav onClick={props.closeNav} className="ml-auto menu_hamburger">
                                 <BsX className="icon_close" />
                             </Nav>

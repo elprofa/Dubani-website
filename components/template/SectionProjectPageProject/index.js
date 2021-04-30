@@ -10,50 +10,47 @@ const SectionProjectPageProject=()=>{
 
     const projects=[
         {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
+            chemin:"/img/gsn1.jpg",
+            posted:'dd/mm/yyyy',
             bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
+            titre:"GSN AUTO",
+            description:<p>
+                GSN-AUTO est un garage automobile qui s'occupe de tous types de véhicules, 
+                voitures, poids lourds, motos,...Aujourd'hui, GSN-AUTO est satisfait d'avoir fait 
+                confiance à dubani Agency pour la conception et la réalisation de son site internet.
+            </p>
         },
         {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
+            chemin:"/img/win.jpg",
+            posted:'dd/mm/yyyy',
             bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
+            titre:"WINTECH",
+            description:<p>
+               Wintec est une entreprise spécialisée dans la construction des
+                infrastructures industrielles. Il accompagne tous les producteurs 
+                du Gabon dans des projets de développement pétrolier et gazier et met en œuvre des solutions techniques innovantes pour  assurer la performance et la pérennité des outils de production des producteurs locaux.
+                Fort de l'étendue de ses compétences dans les secteurs de la 
+                mécanique, de la métallurgie (tuyauterie, chaudronnerie), de 
+                la plomberie, de l'assemblage et du levage, wintech réalise 
+                pour ses clients industriels de nouveaux travaux, réparations 
+                et maintenance sur tous types d'installations.
+
+            </p>
         },
         {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
+            chemin:"/img/xpatsa.jpg",
+            posted:'dd/mm/yyyy',
             bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
+            titre:"XPATSA",
+            description:<p>
+            X-PATSA est une agence de transfert d'argent disponible en Afrique du Sud, 
+            au Gabon et au Maroc. Créer depuis presque 10 ans, x-patsa est l'un des premier
+             à  nous avoir fait confiance. Disponible dans 3 pays d'Afrique, en partenariat avec
+              l'opérateur téléphonique Airtel, x-patsa veut se positionner dans la sous région,
+               dans un premier temps comme un partenaire incontournable dans son domaine.
+        </p>
         }
-        ,
-        {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
-            bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
-        }
-        ,
-        {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
-            bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
-        }
-        ,
-        {
-            chemin:"/img/workplace.jpg",
-            posted:'05 October 2021',
-            bg:"/img/technology.jpg",
-            titre:"Project Name",
-            description:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum"
-        }
+        
         
     ]
 

@@ -15,19 +15,19 @@ const ProjectCard=(props)=>{
                 <Texte taille="24px" poid_font="600" marge_bas="20px" couleur="#fff">
                     {props.titre}
                 </Texte>
-                <Texte  couleur="#fff" marge_haut="0" taille="14px">
+                <Texte  couleur="#fff" marge_haut="0" taille="16px">
                     Posted on: {props.posted}
                 </Texte>
-                <Texte  couleur="#fff" marge_haut="40px" taille="14px">
+                <Texte  couleur="#fff" marge_haut="1px" taille="14px">
                     {props.description}
                 </Texte>
-                <Bouton texte="FULL VIEW"
+                {/* <Bouton texte="FULL VIEW"
                     bg="transparent"
                     bg_after="transparent"
                     marge_haut="40px" 
                     couleur="#fff" 
                     icon={<BsArrowRight />}
-                />
+                /> */}
                 </div>
             </div>
         </ProjectCardStc>

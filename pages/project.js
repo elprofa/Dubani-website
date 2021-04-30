@@ -6,7 +6,7 @@ export default function Project() {
     <div className="App">
       <Head>
         <title>Dubani | Project</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/favicon.ico" />
       </Head>
 
       <main className="main">

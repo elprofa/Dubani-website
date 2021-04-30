@@ -12,18 +12,18 @@ const Team=(props)=>{
             <div className="pictureTeam">
                 <Image chemin={props.picture}  />
             </div>
-            <SousTitre texte={props.name} marge_haut="20px"/>
-            <Texte marge_haut="20px">
-                {props.fonction}
+            <SousTitre texte={props.name} className="titre" marge_haut="20px"/>
+            <Texte marge_haut="20px" className="caption">
+                {props.caption}
             </Texte>
-            <Bouton
+            {/* <Bouton
                 couleur="#333" 
                 marge_haut="20px"
                 bg_after="#fff"
                 bg="#ccc"
                 taille="22px"
                 icon={<BsArrowRight />}
-            />
+            /> */}
         </TeamStc>
     )
 }
