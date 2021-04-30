@@ -10,17 +10,37 @@ const SectionTestimonial = (props) => {
 
        const testimonies=[
                 {
-                        auteur:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification",
-                        detail:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utiliséeà titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum."
+                        auteur:"RH Expatsa",
+                        detail:<p>Une collaboration fructueuse entre le X-Patsa et Dubani Agency, 
+                        l’agence de communication digital qui nous a accompagnés dans 
+                        l’élaboration de notre stratégie de communication. 
+                        C’est un sacré challenge que Dubani Agency a relevé, pour cerner 
+                        la complexité de notre fonctionnement en réseau associatif et 
+                        travailler en concertation avec les membres du conseil 
+                        d’administration, les salariés et les membres associés !
+                        </p>
                 },
                 {
-                        auteur:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification",
-                        detail:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utiliséeà titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum."
-                },
-                {
-                        auteur:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification",
-                        detail:"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utiliséeà titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum."
+                        auteur:"GSN AUTO",
+                        detail:<p>
+                                Nous avons choisi l’agence Dubani Agency pour nous accompagner 
+                                dans la mise en place d’une stratégie RSE. Nous avons 
+                                immédiatement été séduits par le positionnement très engagé 
+                                de David. 
+                                Il a rapidement compris les enjeux de notre secteur d’activité 
+                                et ses spécificités. Malgré le contexte sanitaire compliqué, 
+                                Dubani Agency a parfaitement su animer nos réunions de 
+                                travail à distance en étant à l’écoute et en sachant orienter 
+                                notre réflexion pour co-construire notre Raison d’Etre et 
+                                un plan d’actions qui a eu l’adhésion de tous. 
+                                Ses qualités d’écoute et ses propositions concrètes sont des 
+                                vrais atouts pour nous aider dans notre démarche. 
+                                Merci Dubani Agency pour cette belle collaboration 
+                                qui n’en est qu’à ses débuts !
+
+                        </p>
                 }
+                
         ]
   return (
    

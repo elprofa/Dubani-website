@@ -27,7 +27,7 @@ const MoleculeLeftSectionProject=()=>{
                 poid_font="700"
                 couleur="#fff"
                 />
-            <Texte couleur="#686868" marge_haut="20px">
+            <Texte couleur="#fff" marge_haut="20px">
             Nous considérons chaque nouveau projet comme une chance de nous dépasser,
              de proposer quelque chose de mieux, de plus séduisant, de plus innovant.
             Si vous êtes à la recherche de la perfection et du détail qui tue, nos consultants, 

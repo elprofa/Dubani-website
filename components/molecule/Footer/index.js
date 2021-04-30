@@ -9,11 +9,11 @@ import ElementMenu from "../../shared/ELementMenu";
 import LineFooter from "../../shared/LineFooter";
 
 const Menus = [
-  { lien: "/elprofa", texte: "Agency" },
-  { lien: "/elprofa", texte: "Services" },
-  { lien: "/elprofa", texte: "Projects" },
-  { lien: "/elprofa", texte: "Journal" },
-  { lien: "/elprofa", texte: "Contact" },
+  { lien: "/agency", texte: "Agency" },
+  { lien: "/service", texte: "Services" },
+  { lien: "/project", texte: "Projects" },
+  { lien: "/journal", texte: "Journal" },
+  { lien: "/contact", texte: "Contact" },
 ];
 
 const Footer = (props) => {
@@ -22,11 +22,11 @@ const Footer = (props) => {
       <Container>
         <Row>
           <Col md={3}>
-            <MonImage chemin="/img/logoV.svg" largeur="200" hauteur="200" />
+            <MonImage chemin="/img/logoV.svg" largeur="100" hauteur="100" />
             <Courbe
               couleur="#fff"
               marge_bas="40"
-              marge_haut="80"
+              marge_haut="20"
               className="CourbeTestimonaial"
             />
             <Texte
@@ -35,7 +35,7 @@ const Footer = (props) => {
               alignement="left"
               marge_haut="20"
             >
-              DUBAI AGENGY est une agence digitale,Une agence digitale est
+              DUBANI AGENGY est une agence digitale qui est
               spécialisée dans la création de contenus digitaux pour les
               entreprises, les institutions. C’est une agence de communication
               capable de créer des sites internet et de proposer toutes les
@@ -43,7 +43,9 @@ const Footer = (props) => {
             </Texte>
           </Col>
           <Col md={6}>
-            <MonImage chemin="/img/world-map.png" />
+            <diV className="divImage">
+            <MonImage chemin="/img/map.png"  />
+            </diV>
           </Col>
           <Col md={3} className="divMenu">
             <ul>

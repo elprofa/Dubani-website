@@ -12,16 +12,16 @@ const MoleculeBottomSectionAccueil=(props)=>{
     return(
         <MoleculeBottomSectionAccueilStc ref={props.reference} className="container">
             <Col sm="6" className="left">
-                <Bouton texte="SCROLL DOWN"
+                {/* <Bouton texte="SCROLL DOWN"
                     bg="transparent" 
                     couleur="#333" 
                     bg_after="#fff"
                     bg="#ccc"
                     icon={<BsArrowDown />}
-                />
+                /> */}
             </Col>
             <Col sm="6" className="right">
-                <FaFacebookF />
+                <a href="https://www.facebook.com/dubaniagency" target="_blank" style={{"color":"#000"}}><FaFacebookF /></a>
                 <FaInstagram />
                 <FaLinkedinIn />
             </Col>

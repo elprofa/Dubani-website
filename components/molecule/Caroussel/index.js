@@ -26,10 +26,9 @@ const responsive = {
   }
 };
 const colors = [
-  {chemin:"/img/img1.jpg",lien:""},
-  {chemin:"/img/img2.jpg",lien:""},
-  {chemin:"/img/img3.jpg",lien:""},
-  {chemin:"/img/img5.jpg",lien:""}
+  {chemin:"/img/gsn1.jpg",lien:"https://gsnauto.com/",titre:"GSN AUTO",resume:" GSN-AUTO est un garage automobile qui s'occupe de tous types de véhicules, voitures, poids lourds, motos,...Aujourd'hui, GSN-AUTO est satisfait d'avoir fait confiance à dubani Agency pour la conception et la réalisation de son site internet. "},
+  {chemin:"/img/win.jpg",lien:"http://www.wintech.africa.com/",titre:"WINTECH TECHNOLOGY",resume:""},
+  {chemin:"/img/xpatsa.jpg",lien:"https://xpatsa.com/",titre:"XPATSA",resume:"X-PATSA est une agence de transfert d'argent disponible en Afrique du Sud, au Gabon et au Maroc. Créer depuis presque 10 ans, x-patsa est l'un des premier à  nous avoir fait confiance. Disponible dans 3 pays d'Afrique, en partenariat avec l'opérateur téléphonique Airtel, x-patsa veut se positionner dans la sous région, dans un premier temps comme un partenaire incontournable dans son domaine."},
 ];
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.
@@ -50,23 +49,20 @@ const Simple = ({ deviceType }) => {
              <MonImage chemin={element.chemin} />
              <div className="overlay">
                 <div className="text">
-                  <Titre texte="Salut a tous" couleur="#fff" taille="25px" />
-                  <Texte  couleur="#fff" taille="14px">
-                  Le lorem ipsum est, en imprimerie  
-                 
-                  </Texte>
-
+                  <Titre texte={element.titre} couleur="#fff" taille="25px" />
+                  <br/>
                   <Texte  couleur="#fff" taille="14px" marge_haut="40">
-                  Le lorem ipsum est, en imprimerie, une suite de mots sans 
-                  signification utilisée à titre provisoire pour calibrer une mise en page,  
+                    {element.resume}
                   </Texte>
-                  <Bouton texte="SCROLL DOWN"
-                    bg="transparent"
-                    bg_after="transparent"
-                    marge_haut="40px" 
-                    couleur="#333" 
-                    icon={<BsArrowDown />}
-                />
+                  <a href={element.lien} target="_blank">
+                    <Bouton texte="SCROLL DOWN"
+                      bg="transparent"
+                      bg_after="transparent"
+                      marge_haut="40px" 
+                      couleur="#333" 
+                      icon={<BsArrowDown />}
+                  />
+                </a>
                 </div>
              </div>
           </CarousselStc>

@@ -12,6 +12,10 @@ const SectionAccueilMoleculeLeftStc=Styled.div`
         margin-top:40px;
     }
 
+    .wedo {
+        background: #0a2db0 !important;
+        color:#fff;
+    }
 `;
 
 export default SectionAccueilMoleculeLeftStc;

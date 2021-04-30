@@ -13,5 +13,10 @@ const FooterStc=Styled.div`
             display:none;
         }
     }
+
+    .divImage div
+    {
+        height:350px;
+    }
 `;
 export default FooterStc;

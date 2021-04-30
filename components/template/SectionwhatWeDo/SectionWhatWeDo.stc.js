@@ -1,13 +1,13 @@
 import Styled from 'styled-components';
 
 const SectionWhatWeDoStc=Styled.section`
-     background-image: url(./img/technology1.jpg);
+     background-image: url(./img/binary.jpg);
     min-height:100vh;
     background-size:cover;
     @media (min-width: 991px) {
         background-size:100% auto;
     }
-    padding-top:10%;
+    padding-top:5%;
     padding-bottom:80px;
 
     .bottomWatWeDo

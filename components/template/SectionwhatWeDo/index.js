@@ -8,15 +8,15 @@ import SousTitre from '../../shared/SousTitre';
 import {BsArrowRight} from "react-icons/bs";
 import MonBouton from '../../shared/Bouton';
 import Link from 'next/link';
-import { AiOutlineContacts } from "react-icons/ai";
-import { AiOutlineAppstoreAdd } from "react-icons/ai";
-import { AiOutlineShop } from "react-icons/ai";
+import { AiFillCode } from "react-icons/ai";
+import { AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineGlobal } from "react-icons/ai";
 
 
 const WeDo=[
-    {icon:<AiOutlineContacts />,texte:"DESIGN"},
-    {icon:<AiOutlineAppstoreAdd />,texte:"DÉVELOPPEMENT"},
-    {icon:<AiOutlineShop />,texte:"MARKETING DIGITAL"}
+    {icon:<AiFillCode />,texte:"WEB & MOBILE DEVELOPPEMENT"},
+    {icon:<AiOutlineShareAlt />,texte:"DIGITAL MARKETING"},
+    {icon:<AiOutlineGlobal />,texte:"REFERENCEMENT"}
 ];
 
 const SectionWhatWeDo=()=>{
@@ -26,7 +26,7 @@ const SectionWhatWeDo=()=>{
             <Container>
                 <Row>
                     <Col lg={6} >
-                        <Courbe couleur="#333" />
+                        <Courbe couleur="#0a2db0" />
                         <SousTitre 
                             texte="CE QUE" 
                             marge_haut="30px" 
@@ -34,7 +34,7 @@ const SectionWhatWeDo=()=>{
                             couleur="#fff"
                             poid_font="400"/>
                         <Titre 
-                            texte="nous faisons " 
+                            texte="nous offrons " 
                             couleur="#fff" 
                             marge_bas="40px"
                             poid_font="700"/>

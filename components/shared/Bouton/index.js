@@ -21,6 +21,8 @@ const Bouton = (props) => {
       marge_gauche={marge_gauche} 
       marge_droite={marge_droite} 
       bg={bg}
+
+      onClick={props.clicker}
     >
       <i>{texte}{" "}</i>
         
