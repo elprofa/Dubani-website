@@ -14,7 +14,7 @@ import { AiOutlineGlobal } from "react-icons/ai";
 
 
 const WeDo=[
-    {icon:<AiFillCode />,texte:"WEB & MOBILE DEVELOPPEMENT"},
+    {icon:<AiFillCode />,texte:"WEB & MOBILE DEVELOPMENT"},
     {icon:<AiOutlineShareAlt />,texte:"DIGITAL MARKETING"},
     {icon:<AiOutlineGlobal />,texte:"REFERENCEMENT"}
 ];
