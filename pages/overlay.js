@@ -7,7 +7,7 @@ export default function Home() {
     <div className="App">
       <Head>
         <title>dubani agency</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/favicon.ico" />
       </Head>
 
       <main className="main">

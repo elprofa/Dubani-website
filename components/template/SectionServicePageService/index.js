@@ -15,7 +15,7 @@ const services=[
     
     {
         titre:"WEB DESIGN",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_Web-Design-3.jpg",
         position:"right",
         description:"Pourquoi faire appel à DUBANI AGENCE web ?"+
         "Il existe aujourd’hui des solutions de création simplifiées avec 1&1 ou Wix par exemple. Ce principe de création peut être adapté pour "+
@@ -29,7 +29,7 @@ const services=[
     },
     {
         titre:"WEB & MOBILE DEVELOPMENT",
-        picture:"/img/fpic1.svg",
+        picture:"/img/Dubani_Agency_Developpement-mobil.jpg",
         position:"left",
         description:"Notre agence web conçoit de belles applications mobiles et des interfaces utilisateurs réactives. Nous développons des "+
         "applications pour tout type d'activités et nous collaborons ainsi à la transformation de vos idées  en réalité. Nous utilisons les "+
@@ -40,7 +40,7 @@ const services=[
     },
       {
           titre:"MARKETING DIGITAL",
-          picture:"/img/fpic1.svg",
+          picture:"/img/Dubani_Agency-marketing-video-1.jpg",
           position:"right",
           description:"Le marketing désigne l’ensemble des actions qui ont pour objectif de prévoir, de connaître, de stimuler les besoins "+
           "des consommateurs à l’égard des biens et des services et enfin d’adapter la production et la commercialisation aux besoins ainsi "+
@@ -59,7 +59,7 @@ const services=[
        ,
        {
            titre:"REFERENCEMENT",
-           picture:"/img/fpic1.svg",
+           picture:"/img/Dubani_Agency-SEO-1.jpg",
            position:"left",
            description:"Nous vous accompagnons tout au long de votre projet sur les différentes problématiques liées au SEO. Idéalement nous "+
            "intervenons en amont de votre projet."+

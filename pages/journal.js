@@ -6,7 +6,7 @@ export default function Journal() {
     <div className="App">
       <Head>
         <title>Dubani | Journal</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/favicon.ico" />
       </Head>
 
       <main className="main">

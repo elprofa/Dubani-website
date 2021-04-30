@@ -86,9 +86,9 @@ const FormContact = (props) => {
 
         </Texte>
         <Form>
-          <InputGroup label="Name" id="nom" />
-          <InputGroup label="E-mail" id="prenom" />
-          <InputGroup label="Phone number" id="phone" />
+          <InputGroup label="Nom complet" id="nom" />
+          <InputGroup label="E-mail" id="email" />
+          <InputGroup label="Téléphone" id="phone" />
           <InputGroup typeInput="textarea" label="Message" id="message" />
           <FormGroup check>
             <Label check>
