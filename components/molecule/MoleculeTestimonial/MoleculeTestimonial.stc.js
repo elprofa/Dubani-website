@@ -14,6 +14,13 @@ const MoleculeTestimonialStc=Styled.div`
         margin:auto;
         width:80%;
     }
+
+    .carousel-item p 
+    {
+        @media (max-width: 767px) {
+           font-size:16px !important;
+        }
+    }
 `;
 
 export default MoleculeTestimonialStc;

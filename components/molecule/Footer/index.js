@@ -72,7 +72,7 @@ const Footer = (props) => {
           marge_haut="40px"
         />
 
-        <Row>
+        <Row className="priam">
           <Col md={6}>
             <Texte couleur="#fff" alignement="left">
               © 2021 dubaniagency. Tous droits reservés.

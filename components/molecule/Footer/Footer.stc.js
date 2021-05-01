@@ -14,6 +14,21 @@ const FooterStc=Styled.div`
         }
     }
 
+    .divImage
+    {
+        @media (max-width: 767px) {
+           display:none
+        }
+    }
+
+    .priam p
+    {
+        @media (max-width: 767px) {
+           text-align:center !important;
+        }
+    }
+    
+
     .divImage div
     {
         height:350px;
