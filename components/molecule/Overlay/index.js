@@ -14,7 +14,7 @@ const Overlay=(props)=>{
                 <div className="overlay-content">
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
-                            <Navbar.Brand href="#home" > <MonImage chemin="/img/logoV.svg" largeur="100" hauteur="100" /></Navbar.Brand>
+                            <Navbar.Brand href="/" > <MonImage chemin="/img/logoV.svg" largeur="100" hauteur="100" /></Navbar.Brand>
                             <Nav onClick={props.closeNav} className="ml-auto menu_hamburger">
                                 <BsX className="icon_close" />
                             </Nav>
@@ -24,14 +24,14 @@ const Overlay=(props)=>{
                    <Container>
                         <Row>
                             <Col lg={5} md={12} className="left">
-                                <ElementMenuHeader cliquer={props.closeNav} lien="/agency" texte="AGENCY" />
+                                <ElementMenuHeader cliquer={props.closeNav} lien="/agency" texte="AGENCE" />
                                 <ElementMenuHeader cliquer={props.closeNav} lien="/project" texte="PROJECT"/>
                             </Col>
                              <Col lg={2} md={12} className="toRotate">
                                 <ElementMenuHeader cliquer={props.closeNav} lien="/service" texte="SERVICES"/>
                             </Col>
                             <Col lg={5} md={12} className="right">
-                                <ElementMenuHeader cliquer={props.closeNav} lien="/journal" texte="JOURNAL"/>
+                                <ElementMenuHeader cliquer={props.closeNav} lien="#" texte="JOURNAL"/>
                                 <ElementMenuHeader cliquer={props.closeNav} lien="/contact" texte="CONTACT"/>
                             </Col>
                         </Row>

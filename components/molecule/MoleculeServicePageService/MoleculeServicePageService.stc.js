@@ -3,6 +3,11 @@ import {Row} from 'reactstrap';
 
 const MoleculeStc=Styled(Row)`
     margin:40px 0px;
+    border-bottom: 1px solid #eaeaea;
+    p
+    {
+        text-align:justify !important;
+    }
     @media (max-width: 767px)         
     {
         margin:0px;
@@ -11,11 +16,11 @@ const MoleculeStc=Styled(Row)`
 
     .right
     {
-        text-align:right;
+        text-align:justify !important;
 
      p
         {
-            text-align:right !important;
+            text-align:justify !important;
         }
        
     }

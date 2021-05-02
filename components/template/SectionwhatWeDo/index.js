@@ -50,7 +50,7 @@ const SectionWhatWeDo=()=>{
                 </Row>
                 <Row>
                     <Col lg={12} className="bottomWatWeDo" >
-                        <Link href="service">
+                        <Link href="/service">
                             <a>
                             <MonBouton 
                                 bg="transparent" 

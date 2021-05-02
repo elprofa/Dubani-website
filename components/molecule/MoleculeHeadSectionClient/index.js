@@ -31,8 +31,8 @@ const SectionClientMoleculeHead=()=>{
                 <Texte couleur="#fff" alignement="left" marge_haut="40px">
                 Nous faisons de la relation client un atout incontournable dans le 
                 développement de notre activité. Développer le portefeuille client  
-                avec nos experts est notre atout fondamental ,dans la vision que nous
-                 nous sommes fixée. nous disposons notre oreille aux client afin de ressortir 
+                avec nos experts est notre atout fondamental, dans la vision que nous
+                 nous sommes fixée. nous disposons notre oreille aux clients afin de ressortir 
                  le potentiel exponentiel de la stratégie adaptée.
                  </Texte>
             </Col>

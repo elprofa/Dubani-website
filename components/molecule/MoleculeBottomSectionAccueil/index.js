@@ -22,8 +22,8 @@ const MoleculeBottomSectionAccueil=(props)=>{
             </Col>
             <Col sm="6" className="right">
                 <a href="https://www.facebook.com/dubaniagency" target="_blank" style={{"color":"#000"}}><FaFacebookF /></a>
-                <FaInstagram />
-                <FaLinkedinIn />
+                {/* <FaInstagram />
+                <FaLinkedinIn /> */}
             </Col>
         </MoleculeBottomSectionAccueilStc>
     )

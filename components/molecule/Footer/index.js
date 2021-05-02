@@ -10,10 +10,10 @@ import LineFooter from "../../shared/LineFooter";
 import Link from "next/link";
 
 const Menus = [
-  { lien: "/agency", texte: "Agency" },
+  { lien: "/agency", texte: "Agence" },
   { lien: "/service", texte: "Services" },
   { lien: "/project", texte: "Projects" },
-  { lien: "/journal", texte: "Journal" },
+  { lien: "#", texte: "Journal" },
   { lien: "/contact", texte: "Contact" },
 ];
 

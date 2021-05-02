@@ -5,6 +5,7 @@ import MonImage from '../../shared/MonImage';
 import Texte from '../../shared/Texte';
 import {BsArrowRight} from "react-icons/bs";
 import MonBouton from '../../shared/Bouton';
+import Link from 'next/link';
 
 
 const WhatWeDo=(props)=>{
@@ -21,13 +22,17 @@ const WhatWeDo=(props)=>{
                 >
                {props.texte}
         </Texte>
-        <MonBouton 
-        bg="transparent" 
-        bg_after="transparent"
-        couleur="#0a2db0" 
-        taille="24px"
-        largeur="150px"
-        icon={<BsArrowRight />} />
+        <Link href="/service">
+            <a>
+                <MonBouton 
+                bg="transparent" 
+                bg_after="transparent"
+                couleur="#0a2db0" 
+                taille="24px"
+                largeur="150px"
+                icon={<BsArrowRight />} />
+            </a>
+        </Link>
         </WhatWeDoStc>
     )
 }

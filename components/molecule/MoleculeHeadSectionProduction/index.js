@@ -26,7 +26,7 @@ const SectionProductionMoleculeHead=()=>{
             <Col lg={6} className="MonBouton">
                 <Link href="project">
                     <a>
-                        <MonBouton texte="MORE PROJECTS"  bg="#0a2db0" bg_after="#fff" marge_haut="80px" couleur="#000" icon={<BsArrowRight />} />
+                        <MonBouton texte="Voir plus"  bg="#0a2db0" bg_after="#fff" marge_haut="80px" couleur="#000" icon={<BsArrowRight />} />
                     </a>
                 </Link>
             </Col>
