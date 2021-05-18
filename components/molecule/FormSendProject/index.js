@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import FormSendProjectStc from './FormSendProject.stc';
 import {Row,Col} from "reactstrap";
+import { sendMail } from '../../services/sendMail';
+
 
  const FormSendProject=()=>{
     const [name, setName] = useState('')
@@ -12,8 +14,13 @@ import {Row,Col} from "reactstrap";
     const [resume, setResume] = useState('')
     const [submitted, setSubmitted] = useState(false)
 
-    const handleSubmit = (e) => {
+  
+
+    const handleSubmit = async(e) => {
         e.preventDefault()
+        let response = await sendMail('https://craftcode.design/');
+        console.log(response);
+          console.log(sendMail);
         console.log('Sending')
         // let data = {
         //     name,
