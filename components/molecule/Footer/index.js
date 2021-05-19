@@ -38,7 +38,7 @@ const Footer = (props) => {
               alignement="left"
               marge_haut="0"
             >
-              DUBANI AGENGY est une agence digitale qui est
+              DUBANI AGENGY est une agence digitale basée à CASABLANCA (Maroc)
               spécialisée dans la création de contenus digitaux pour les
               entreprises, les institutions. C’est une agence de communication
               capable de créer des sites internet et de proposer toutes les

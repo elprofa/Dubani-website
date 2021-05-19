@@ -8,7 +8,7 @@ export default function Agency() {
   return (
     <div className="App">
       <Head>
-        <title> Dubani | Agency</title>
+        <title> Dubani | Agence digitale</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
 

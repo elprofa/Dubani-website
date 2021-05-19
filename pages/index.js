@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-        <title>dubani agency</title>
+        <title>Agence de communication digitale à casablanca</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
 

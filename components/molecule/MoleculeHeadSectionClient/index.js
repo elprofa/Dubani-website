@@ -16,23 +16,23 @@ const SectionClientMoleculeHead=()=>{
                <Col lg={6} >
                     <Courbe couleur="#527bce" />
                     <SousTitre 
-                        texte="NOS" 
+                        texte="LES CLIENTS DE NOTRE AGENCE DIGITALE" 
                         marge_haut="30px" 
                         marge_bas="20px" 
                         couleur="#fff"
                         poid_font="400"/>
                     <Titre 
-                        texte="heureux clients" 
+                        texte="Ils sont satisfaits" 
                         couleur="#fff"
                         poid_font="700"/>
                 </Col>
 
             <Col lg={6} className="MonTexte">
                 <Texte couleur="#fff" alignement="left" marge_haut="40px">
-                Nous faisons de la relation client un atout incontournable dans le 
-                développement de notre activité. Développer le portefeuille client  
-                avec nos experts est notre atout fondamental, dans la vision que nous
-                 nous sommes fixée. nous disposons notre oreille aux clients afin de ressortir 
+                Notre agence digitale fait de la relation client un atout incontournable dans le 
+                développement de son activité. Développer le portefeuille client  
+                avec nos experts est son atout fondamental, dans la vision qu'elle
+                 s'est fixée. Notre agence digitale dispose son oreille aux clients afin de ressortir 
                  le potentiel exponentiel de la stratégie adaptée.
                  </Texte>
             </Col>

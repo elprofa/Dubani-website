@@ -17,7 +17,7 @@ const SectionAccueilPageAgency=()=>{
                             marge_bas="40px" 
                             poid_font="600"/>
                         <Titre 
-                            texte="Nous sommes honorés de fournir
+                            texte="Une agence digitale honorée de fournir
                             " 
                             couleur="#fff"
                             poidFont="700"/>

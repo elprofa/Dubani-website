@@ -23,7 +23,7 @@ const SectionAccueilMoleculeLeft=(props)=>{
                 marge_bas="20px" 
                 poid_font="400"/>
             <Titre 
-                texte="Avec une  agence experte dans la création des contenus digitaux. " 
+                texte="Avec une  agence digitale experte dans la création des contenus digitaux. " 
                 poid_font="700"/>
             
             <Bouton 
