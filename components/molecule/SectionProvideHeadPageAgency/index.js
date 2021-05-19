@@ -10,7 +10,7 @@ const SectionProvideHead=(props)=>{
     return(
         <SectionProvideStc ref={props.reference}>
             <SousTitre 
-                texte="CE QUE NOUS FOURNISSONS" 
+                texte="CE QUE NOTRE AGENCE DIGITALE FOURNIT" 
                 marge_haut="30px" 
                 marge_bas="20px" 
                 poid_font="400"/>
